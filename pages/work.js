@@ -24,7 +24,7 @@ const Work = () => {
                             <p className='text-gray-500'>Modern websites need modern user interface for your visiters</p>
                         </div>
                         <div className="moreButton flex py-4 flex-row items-center justify-center">
-                            <a href="https://odckrl.vercel.app" target={'_blank'}><button className="py-2 px-10 rounded-2xl bg-[#029e6e] text-white hover:bg-[#01573c]">View Demo</button></a>
+                            <a href="https://odckrl.vercel.app" target={'_blank'} rel="noreferrer"><button className="py-2 px-10 rounded-2xl bg-[#029e6e] text-white hover:bg-[#01573c]">View Demo</button></a>
                         </div>
                     </div>
                     <div className="box1 p-4 bg-gray-100 rounded-2xl my-4">

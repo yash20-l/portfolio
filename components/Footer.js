@@ -23,7 +23,7 @@ const Footer = () => {
                     </div>
                     <div className="ul p-4 bg-gray-600 rounded-xl">
                         <ul>
-                            <li className='text-white text-lg'>Mail us at <a href="https://atalinfotech19@gmail.com" target={'_blank'}>atalinfotech19@gmail.com</a></li>
+                            <li className='text-white text-lg'>Mail us at <a href="https://atalinfotech19@gmail.com" rel="noreferrer" target={'_blank'}>atalinfotech19@gmail.com</a></li>
                             <li className='text-white text-lg'>Contact us on +91 91154-79004</li>
                             <li className='text-white text-lg'>Find us on social media platforms</li>
                         </ul>
