@@ -29,7 +29,7 @@ const Skills = () => {
                             <div className="box-2">
                                 <div className="image flex flex-row items-center justify-center">
                                     <div className="wrapper relative h-[5rem] w-[5rem] bg-gray-200 rounded-full p-2">
-                                    <Image src="/html.png" fill></Image>
+                                    <Image src="/html.png" fill alt='skill1'></Image>
                                     </div>
                                 </div>
                                 <div className="text py-2">
@@ -39,7 +39,7 @@ const Skills = () => {
                             <div className="box-2">
                                 <div className="image flex flex-row items-center justify-center">
                                     <div className="wrapper relative h-[5rem] w-[5rem] bg-gray-200 rounded-full p-2">
-                                    <Image src="/css.png" fill></Image>
+                                    <Image src="/css.png" fill alt='skill1'></Image>
                                     </div>
                                 </div>
                                 <div className="text py-2">
@@ -49,7 +49,7 @@ const Skills = () => {
                             <div className="box-2">
                                 <div className="image flex flex-row items-center justify-center">
                                     <div className="wrapper relative h-[5rem] w-[5rem] bg-gray-200 rounded-full p-2">
-                                    <Image src="/javascript.png" fill></Image>
+                                    <Image src="/javascript.png" fill alt='skill1'></Image>
                                     </div>
                                 </div>
                                 <div className="text py-2">
@@ -59,7 +59,7 @@ const Skills = () => {
                             <div className="box-2">
                                 <div className="image flex flex-row items-center justify-center">
                                     <div className="wrapper relative h-[5rem] w-[5rem] bg-gray-200 rounded-full p-2">
-                                    <Image src="/nodejs.png" fill></Image>
+                                    <Image src="/nodejs.png" fill alt='skill1'></Image>
                                     </div>
                                 </div>
                                 <div className="text py-2">
@@ -69,7 +69,7 @@ const Skills = () => {
                             <div className="box-2">
                                 <div className="image flex flex-row items-center justify-center">
                                     <div className="wrapper relative h-[5rem] w-[5rem] bg-gray-200 rounded-full p-2">
-                                    <Image src="/django.png" fill></Image>
+                                    <Image src="/django.png" fill alt='skill1'></Image>
                                     </div>
                                 </div>
                                 <div className="text py-2">
@@ -79,7 +79,7 @@ const Skills = () => {
                             <div className="box-2">
                                 <div className="image flex flex-row items-center justify-center">
                                     <div className="wrapper relative h-[5rem] w-[5rem] bg-gray-200 rounded-full p-2">
-                                    <Image src="/flask.png" fill></Image>
+                                    <Image src="/flask.png" fill alt='skill1'></Image>
                                     </div>
                                 </div>
                                 <div className="text py-2">
@@ -89,7 +89,7 @@ const Skills = () => {
                             <div className="box-2">
                                 <div className="image flex flex-row items-center justify-center">
                                     <div className="wrapper relative h-[5rem] w-[5rem] bg-gray-200 rounded-full p-2">
-                                    <Image src="/react.png" fill></Image>
+                                    <Image src="/react.png" fill alt='skill1'></Image>
                                     </div>
                                 </div>
                                 <div className="text py-2">
@@ -99,7 +99,7 @@ const Skills = () => {
                             <div className="box-2">
                                 <div className="image flex flex-row items-center justify-center">
                                     <div className="wrapper relative h-[5rem] w-[5rem] bg-gray-200 rounded-full p-2">
-                                    <Image src="/nextjs.png" fill></Image>
+                                    <Image src="/nextjs.png" fill alt='skill1'></Image>
                                     </div>
                                 </div>
                                 <div className="text py-2">
@@ -109,7 +109,7 @@ const Skills = () => {
                             <div className="box-2">
                                 <div className="image flex flex-row items-center justify-center">
                                     <div className="wrapper relative h-[5rem] w-[5rem] bg-gray-200 rounded-full p-2">
-                                    <Image src="/wordpress.png" fill></Image>
+                                    <Image src="/wordpress.png" fill alt='skill1'></Image>
                                     </div>
                                 </div>
                                 <div className="text py-2">
@@ -119,7 +119,7 @@ const Skills = () => {
                             <div className="box-2">
                                 <div className="image flex flex-row items-center justify-center">
                                     <div className="wrapper relative h-[5rem] w-[5rem] bg-gray-200 rounded-full p-2">
-                                    <Image src="/socket.png" fill></Image>
+                                    <Image src="/socket.png" fill alt='skill1'></Image>
                                     </div>
                                 </div>
                                 <div className="text py-2">
@@ -129,7 +129,7 @@ const Skills = () => {
                             <div className="box-2">
                                 <div className="image flex flex-row items-center justify-center">
                                     <div className="wrapper relative h-[5rem] w-[5rem]  rounded-full p-2">
-                                    <Image src="/mongo3.png" fill></Image>
+                                    <Image src="/mongo3.png" fill alt='skill1'></Image>
                                     </div>
                                 </div>
                                 <div className="text py-2">
@@ -139,7 +139,7 @@ const Skills = () => {
                             <div className="box-2">
                                 <div className="image flex flex-row items-center justify-center">
                                     <div className="wrapper relative h-[5rem] w-[5rem]  rounded-full p-2">
-                                    <Image src="/webrtc.png" fill></Image>
+                                    <Image src="/webrtc.png" fill alt='skill1'></Image>
                                     </div>
                                 </div>
                                 <div className="text py-2">
@@ -149,7 +149,7 @@ const Skills = () => {
                             <div className="box-2">
                                 <div className="image flex flex-row items-center justify-center">
                                     <div className="wrapper relative h-[5rem] w-[5rem]  rounded-full p-2">
-                                    <Image src="/agora.png" fill></Image>
+                                    <Image src="/agora.png" fill alt='skill1'></Image>
                                     </div>
                                 </div>
                                 <div className="text py-2">
@@ -159,7 +159,7 @@ const Skills = () => {
                             <div className="box-2">
                                 <div className="image flex flex-row items-center justify-center">
                                     <div className="wrapper relative h-[5rem] w-[5rem] bg-gray-200 rounded-full p-2">
-                                    <Image src="/firebase.png" fill></Image>
+                                    <Image src="/firebase.png" fill alt='skill1'></Image>
                                     </div>
                                 </div>
                                 <div className="text py-2">
