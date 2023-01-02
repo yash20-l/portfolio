@@ -177,7 +177,7 @@ export default function Home() {
             <div className="moreButton flex py-4 flex-row items-center justify-center">
               <button className="py-2 px-10 rounded-2xl bg-[#029e6e] text-white hover:bg-[#01573c]">MORE</button>
             </div>
-          </div>
+          </div>it
           <div className="box2 p-4 bg-white rounded-2xl my-4 border-4 border-[#00d69a]">
             <div className="boxImage relative h-[12rem] w-full">
               <Image src={'/backend.svg'} fill alt='services1'></Image>
@@ -188,7 +188,7 @@ export default function Home() {
               </div>
             </AnimationOnScroll>
             <div className="para text-center">
-              <p className='text-gray-500'>Weather it's about Static websites, Dynamic, Ecommerce, Hostings, Business emails etc.</p>
+              <p className='text-gray-500'>Weather it&lsquo;s about Static websites, Dynamic, Ecommerce, Hostings, Business emails etc.</p>
             </div>
             <div className="moreButton flex py-4 flex-row items-center justify-center">
               <button className="py-2 px-10 rounded-2xl bg-[#029e6e] text-white hover:bg-[#01573c]">MORE</button>
