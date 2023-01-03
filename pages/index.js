@@ -23,7 +23,7 @@ export default function Home() {
         <meta name='keywords' content="digital marketing, website design, website services, ui/ux design, graphic designing, professional digital marketing services, digital marketing services in chandigarh, digital marketing services in mohali, digital marketing services in ropar, best digital marketing services" />
         <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-        <title>Atal Infotech | Web Development | Graphic Designing | SEO</title>
+        <title>Atal Infotech | Web Development | Digital Marketing| SEO</title>
         <meta name="description" content="Best digital marketing services, website services, website design, email marketing and many more at excellent prices." />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
