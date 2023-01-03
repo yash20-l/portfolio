@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 import { loadFull } from "tsparticles";
 import Particles from "react-tsparticles";
 import Image from 'next/image';
-import { AiFillInstagram, AiFillTwitterCircle, AiFillGithub, AiFillFacebook, AiFillThunderbolt } from 'react-icons/ai'
+import { AiFillInstagram, AiFillTwitterCircle, AiFillGithub, AiFillFacebook, AiFillThunderbolt, AiFillCheckCircle } from 'react-icons/ai'
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 import Footer from '../components/Footer';
 import { FaLightbulb, FaRegPaperPlane } from "react-icons/fa"
@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <div className='main'>
       <Head>
-        <meta name='keywords' content="digital marketing, website design, website services, ui/ux design, graphic designing, professional digital marketing services, digital marketing services in chandigarh, digital marketing services in mohali, digital marketing services in ropar, best digital marketing services"/>
+        <meta name='keywords' content="digital marketing, website design, website services, ui/ux design, graphic designing, professional digital marketing services, digital marketing services in chandigarh, digital marketing services in mohali, digital marketing services in ropar, best digital marketing services" />
         <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
         <title>Atal Infotech | Web Development | Graphic Designing | SEO</title>
@@ -29,13 +29,19 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Rubik+Bubbles&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet"></link>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"></link>
       </Head>
 
       <Navbar active={0}></Navbar>
+
+      <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" className=" fixed h-[60px] w-[60px] bottom-[40px] right-[40px] bg-[#25d366] text-[#FFF] rounded-[50px] text-center text-[38px] z-[100]" target="_blank" rel="noreferrer">
+        <i class="fa fa-whatsapp my-float"></i>
+      </a>
       <Script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></Script>
 
       <div className="heroSection relative" style={{ minHeight: '90vh' }}>
-      <Particles
+        <Particles
           className='h-full absolute top-0 left-0 h-full w-full'
           id="tsparticles"
 
@@ -120,7 +126,7 @@ export default function Home() {
             <div className="content-subwrapper text-center">
               <h1 className="text-[2.2rem]" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600, color: 'white' }}>Creative solutions to digital challenges</h1>
               <div className="button py-8">
-                <button className='px-8 py-2 bg-transparent border-2 border-[#00d69a] text-white text-lg hover:border-[#008549]' style={{ fontFamily: 'Quicksand, sans-serif' }}>GET STARTED</button>
+                <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" target={'_blank'} rel='norefferer'><button className='px-8 py-2 bg-transparent border-2 border-[#00d69a] text-white text-lg hover:border-[#008549]' style={{ fontFamily: 'Quicksand, sans-serif' }}>GET STARTED</button></a>
               </div>
               <div className="social-icons flex flex-row items-center justify-center py-2">
                 <AiFillGithub size={30} color='white' className='mx-[5px] hover:cursor-pointer'></AiFillGithub>
@@ -130,10 +136,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-          {/* <div className="hero-image h-full w-full flex flex-col items-center justify-center">
-            <Image src="/hero.png" width={300} height={300} className="rounded-full"></Image>
-          </div> */}
         </div>
       </div>
 
@@ -167,11 +169,52 @@ export default function Home() {
                 <h1 className='text-2xl text-[#007d5a]' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>UI/UX Design</h1>
               </div>
             </AnimationOnScroll>
-            <div className="para text-center">
+            <div className="para text-left pb-4">
               <p className='text-gray-500'>Modern websites need modern user interface for your visiters</p>
             </div>
-            <div className="moreButton flex py-4 flex-row items-center justify-center">
-              <button className="py-2 px-10 rounded-2xl bg-[#029e6e] text-white hover:bg-[#01573c]">MORE</button>
+            <div className="more-section h-[10rem] py-2">
+              <div className="more w-full h-full" style={{ fontFamily: 'Raleway, sans-serif' }}>
+                <div className="more-item flex flex-row items-center justify-start">
+                  <div className="tickmark px-2">
+                    <AiFillCheckCircle size={20} color="#11b502"></AiFillCheckCircle>
+                  </div>
+                  <div className="more-text px-2">
+                    <h2 className='text-lg'>Website Design</h2>
+                  </div>
+                </div>
+                <div className="more-item flex flex-row items-center justify-start">
+                  <div className="tickmark px-2">
+                    <AiFillCheckCircle size={20} color="#11b502"></AiFillCheckCircle>
+                  </div>
+                  <div className="more-text px-2">
+                    <h2 className='text-lg'>Content Writing</h2>
+                  </div>
+                </div>
+                <div className="more-item flex flex-row items-center justify-start">
+                  <div className="tickmark px-2">
+                    <AiFillCheckCircle size={20} color="#11b502"></AiFillCheckCircle>
+                  </div>
+                  <div className="more-text px-2">
+                    <h2 className='text-lg'>Modern</h2>
+                  </div>
+                </div>
+                <div className="more-item flex flex-row items-center justify-start">
+                  <div className="tickmark px-2">
+                    <AiFillCheckCircle size={20} color="#11b502"></AiFillCheckCircle>
+                  </div>
+                  <div className="more-text px-2">
+                    <h2 className='text-lg'>User Friendly</h2>
+                  </div>
+                </div>
+                <div className="more-item flex flex-row items-center justify-start">
+                  <div className="tickmark px-2">
+                    <AiFillCheckCircle size={20} color="#11b502"></AiFillCheckCircle>
+                  </div>
+                  <div className="more-text px-2">
+                    <h2 className='text-lg'>Fully Responsive</h2>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="box2 p-4 bg-white rounded-2xl my-4 border-4 border-[#00d69a]">
@@ -183,11 +226,52 @@ export default function Home() {
                 <h1 className='text-2xl text-[#007d5a]' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>Website Services</h1>
               </div>
             </AnimationOnScroll>
-            <div className="para text-center">
-              <p className='text-gray-500'>Weather it&lsquo;s about Static websites, Dynamic, Ecommerce, Hostings, Business emails etc.</p>
+            <div className="para text-left pb-4">
+              <p className='text-gray-500'>Fully responsive, Fast loading, Simple and User friendly</p>
             </div>
-            <div className="moreButton flex py-4 flex-row items-center justify-center">
-              <button className="py-2 px-10 rounded-2xl bg-[#029e6e] text-white hover:bg-[#01573c]">MORE</button>
+            <div className="more-section h-[10rem] py-2">
+              <div className="more w-full h-full" style={{ fontFamily: 'Raleway, sans-serif' }}>
+                <div className="more-item flex flex-row items-center justify-start">
+                  <div className="tickmark px-2">
+                    <AiFillCheckCircle size={20} color="#11b502"></AiFillCheckCircle>
+                  </div>
+                  <div className="more-text px-2">
+                    <h2 className='text-lg'>Business Portfolio</h2>
+                  </div>
+                </div>
+                <div className="more-item flex flex-row items-center justify-start">
+                  <div className="tickmark px-2">
+                    <AiFillCheckCircle size={20} color="#11b502"></AiFillCheckCircle>
+                  </div>
+                  <div className="more-text px-2">
+                    <h2 className='text-lg'>Static Website</h2>
+                  </div>
+                </div>
+                <div className="more-item flex flex-row items-center justify-start">
+                  <div className="tickmark px-2">
+                    <AiFillCheckCircle size={20} color="#11b502"></AiFillCheckCircle>
+                  </div>
+                  <div className="more-text px-2">
+                    <h2 className='text-lg'>Dynamic Website</h2>
+                  </div>
+                </div>
+                <div className="more-item flex flex-row items-center justify-start">
+                  <div className="tickmark px-2">
+                    <AiFillCheckCircle size={20} color="#11b502"></AiFillCheckCircle>
+                  </div>
+                  <div className="more-text px-2">
+                    <h2 className='text-lg'>Single Page Website</h2>
+                  </div>
+                </div>
+                <div className="more-item flex flex-row items-center justify-start">
+                  <div className="tickmark px-2">
+                    <AiFillCheckCircle size={20} color="#11b502"></AiFillCheckCircle>
+                  </div>
+                  <div className="more-text px-2">
+                    <h2 className='text-lg'>Ecommerce Website</h2>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="box3 p-4 bg-white rounded-2xl my-4">
@@ -199,15 +283,66 @@ export default function Home() {
                 <h1 className='text-2xl text-[#007d5a]' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>Digital Marketing</h1>
               </div>
             </AnimationOnScroll>
-            <div className="para text-center">
+            <div className="para text-left pb-4">
               <p className='text-gray-500'>Digital marketing that give a boost to your Business or content</p>
             </div>
-            <div className="moreButton flex py-4 flex-row items-center justify-center">
-              <button className="py-2 px-10 rounded-2xl bg-[#029e6e] text-white hover:bg-[#01573c]">MORE</button>
+            <div className="more-section h-[10rem] py-2">
+              <div className="more w-full h-full" style={{ fontFamily: 'Raleway, sans-serif' }}>
+                <div className="more-item flex flex-row items-center justify-start">
+                  <div className="tickmark px-2">
+                    <AiFillCheckCircle size={20} color="#11b502"></AiFillCheckCircle>
+                  </div>
+                  <div className="more-text px-2">
+                    <h2 className='text-lg'>Email Marketing</h2>
+                  </div>
+                </div>
+                <div className="more-item flex flex-row items-center justify-start">
+                  <div className="tickmark px-2">
+                    <AiFillCheckCircle size={20} color="#11b502"></AiFillCheckCircle>
+                  </div>
+                  <div className="more-text px-2">
+                    <h2 className='text-lg'>Google Ads</h2>
+                  </div>
+                </div>
+                <div className="more-item flex flex-row items-center justify-start">
+                  <div className="tickmark px-2">
+                    <AiFillCheckCircle size={20} color="#11b502"></AiFillCheckCircle>
+                  </div>
+                  <div className="more-text px-2">
+                    <h2 className='text-lg'>Facebook Ads</h2>
+                  </div>
+                </div>
+                <div className="more-item flex flex-row items-center justify-start">
+                  <div className="tickmark px-2">
+                    <AiFillCheckCircle size={20} color="#11b502"></AiFillCheckCircle>
+                  </div>
+                  <div className="more-text px-2">
+                    <h2 className='text-lg'>SEO Services</h2>
+                  </div>
+                </div>
+                <div className="more-item flex flex-row items-center justify-start">
+                  <div className="tickmark px-2">
+                    <AiFillCheckCircle size={20} color="#11b502"></AiFillCheckCircle>
+                  </div>
+                  <div className="more-text px-2">
+                    <h2 className='text-lg'>Social Media</h2>
+                  </div>
+                </div>
+              </div>
             </div>
+            {/* <div className="moreButton flex py-4 flex-row items-center justify-center">
+              <button className="py-2 px-10 rounded-2xl bg-[#029e6e] text-white hover:bg-[#01573c]">MORE</button>
+            </div> */}
           </div>
         </div>
       </div>
+
+      {/* <div className="ServicesSection px-4 overflow-hidden lg:px-8" style={{ background: '#2e2e2e' }}>
+        <div className="text py-4 h-full w-full flex flex-row items-center">
+          <div className="dash w-[4rem] rounded-xl h-[5px] bg-[#00d69a] mx-4"></div>
+          <h1 className="text-[2.5rem] text-left lg:text-[3rem] text-white" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>Services</h1>
+        </div>
+      </div> */}
 
       <div className="creativesection bg-blend-multiply bg-gray-600" style={{ backgroundImage: "url('/laptop2.jpg')", backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
         <div className="text text-center pt-2">
@@ -255,7 +390,7 @@ export default function Home() {
               </div>
             </AnimationOnScroll>
             <div className="para px-[2rem] pb-8">
-              <span className="text-lg text-white" style={{ fontFamily: 'Quicksand, sans-serif' }}>We are always curious to try new technologies and provide our clients with up to date services</span>
+              <h2 className="text-lg text-white" style={{ fontFamily: 'Quicksand, sans-serif' }}>We are always curious to try new technologies and provide our clients with up to date services</h2>
             </div>
           </div>
         </div>
@@ -299,7 +434,7 @@ export default function Home() {
           <h1 className="text-[3rem] text-white text-center" style={{ fontFamily: 'Quicksand, sans-serif', fontWeight: 600 }}>Have any projects in mind ?</h1>
         </div>
         <div className="button py-8">
-          <button className='px-8 py-2 bg-transparent border-2 border-[#00d69a] text-white text-lg hover:border-[#008549]' style={{ fontFamily: 'Quicksand, sans-serif' }}>GET STARTED</button>
+          <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" target={'_blank'} rel='norefferer'><button className='px-8 py-2 bg-transparent border-2 border-[#00d69a] text-white text-lg hover:border-[#008549]' style={{ fontFamily: 'Quicksand, sans-serif' }}>GET STARTED</button></a>
         </div>
       </div>
       <Footer></Footer>

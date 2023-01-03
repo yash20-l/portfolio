@@ -30,7 +30,7 @@ const Navbar = (props) => {
             <Link href={'/about'}><span style={{fontFamily:'Poppins, sans-serif'}} className="text-[2rem]">About</span></Link>
           </div>
           <div className="option-tile py-2 pl-4 flex flex-row items-center justify-start">
-            <Link href={'/work'}><span style={{fontFamily:'Poppins, sans-serif'}} className="text-[2rem]">Work</span></Link>
+            <Link href={'/contact'}><span style={{fontFamily:'Poppins, sans-serif'}} className="text-[2rem]">Contact Us</span></Link>
           </div>
         </div>
       </div>
@@ -97,12 +97,12 @@ const Navbar = (props) => {
             <div className="menu-ul relative py-2" onClick={() => { setActive(3) }}>
               {active == 3 ? (
                 <>
-                  <Link href={'/work'}><li className='px-2 text-lg text-[#61e1e8]' style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 600 }}>Work</li></Link>
-                  <div className="dash h-[5px] w-16 bg-[#00d69a] absolute rounded-xl bottom-0"></div>
+                  <Link href={'/contact'}><li className='px-2 text-lg text-[#61e1e8]' style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 600 }}>Contact Us</li></Link>
+                  <div className="dash h-[5px] w-28 bg-[#00d69a] absolute rounded-xl bottom-0"></div>
                 </>
               ) : (
                 <>
-                  <Link href={'/work'}><li className='px-2 text-lg text-[#61e1e8]' style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 600 }}>Work</li></Link>
+                  <Link href={'/contact'}><li className='px-2 text-lg text-[#61e1e8]' style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 600 }}>Contact Us</li></Link>
                 </>
               )}
             </div>
