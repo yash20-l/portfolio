@@ -142,7 +142,7 @@ export default function Home() {
       <div className="dialogeSection flex flex-col-reverse py-[5rem] h-[40rem] md:h-[25rem] md:flex-row items-center justify-center px-8" style={{ background: '#1b0f42' }}>
         <AnimationOnScroll animateIn="animate__fadeInLeft" duration={1.1} animateOnce={true}>
           <div className="text md:py-2 flex flex-row items-center justify-center h-full w-full">
-            <h1 className='text-[2.5rem] lg:text-[2.5rem] text-white' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>Web Solutions to Scale Your Business.</h1>
+            <h2 className='text-[2.5rem] lg:text-[2.5rem] text-white' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>Web Solutions to Scale Your Business.</h2>
           </div>
           <div className="subheading">
             <span className='text-white text-lg' style={{ fontFamily: 'Quicksand, sans-serif' }}>From simple web page to complex realtime projects, We are with you</span>
@@ -157,7 +157,7 @@ export default function Home() {
       <div className="ServicesSection px-4 overflow-hidden lg:px-8" style={{ background: '#2e2e2e' }}>
         <div className="text py-4 h-full w-full flex flex-row items-center">
           <div className="dash w-[4rem] rounded-xl h-[5px] bg-[#00d69a] mx-4"></div>
-          <h1 className="text-[2.5rem] text-left lg:text-[3rem] text-white" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>Services</h1>
+          <h2 className="text-[2.5rem] text-left lg:text-[3rem] text-white" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>Services</h2>
         </div>
         <div className="boxSection lg:grid lg:grid-cols-3 lg:gap-4 lg:px-16 py-4">
           <div className="box1 p-4 bg-white rounded-2xl my-4">
@@ -166,7 +166,7 @@ export default function Home() {
             </div>
             <AnimationOnScroll animateIn="animate__fadeInLeft" duration={0.5} animateOnce={true}>
               <div className="heading py-8 text-center">
-                <h1 className='text-2xl text-[#007d5a]' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>UI/UX Design</h1>
+                <h2 className='text-2xl text-[#007d5a]' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>UI/UX Design</h2>
               </div>
             </AnimationOnScroll>
             <div className="para text-left pb-4">
@@ -223,7 +223,7 @@ export default function Home() {
             </div>
             <AnimationOnScroll animateIn="animate__fadeInUp" duration={0.5} animateOnce={true}>
               <div className="heading py-8 text-center">
-                <h1 className='text-2xl text-[#007d5a]' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>Website Services</h1>
+                <h2 className='text-2xl text-[#007d5a]' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>Website Services</h2>
               </div>
             </AnimationOnScroll>
             <div className="para text-left pb-4">
@@ -280,7 +280,7 @@ export default function Home() {
             </div>
             <AnimationOnScroll animateIn="animate__fadeInRight" duration={0.5} animateOnce={true}>
               <div className="heading py-8 text-center">
-                <h1 className='text-2xl text-[#007d5a]' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>Digital Marketing</h1>
+                <h2 className='text-2xl text-[#007d5a]' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>Digital Marketing</h2>
               </div>
             </AnimationOnScroll>
             <div className="para text-left pb-4">
@@ -349,9 +349,9 @@ export default function Home() {
           <h1 className='text-2xl text-white'>Our Mission</h1>
         </div>
         <div className="mainText text-center">
-          <h1 className="text-[2rem] lg:text-[3rem] text-white" style={{ fontFamily: 'Quicksand, sans-serif' }}>
+          <h2 className="text-[2rem] lg:text-[3rem] text-white" style={{ fontFamily: 'Quicksand, sans-serif' }}>
             Our work transforms businesses
-          </h1>
+          </h2>
         </div>
         <div className="boxxeswrapper py-[4rem] md:grid md:grid-cols-2 lg:grid-cols-3 gap-4 lg:px-[10rem]">
           <div className="box1 my-4 mx-8 lg:m-[0]  bg-gray-800 rounded-2xl border-2 border-[#00d69a]">
@@ -360,7 +360,7 @@ export default function Home() {
             </div>
             <AnimationOnScroll animateIn="animate__fadeInUp" duration={0.5} animateOnce={true}>
               <div className="text px-[2rem] pb-[2rem]">
-                <h1 className='text-[2.5rem] text-white' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>Creative</h1>
+                <h2 className='text-[2.5rem] text-white' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>Creative</h2>
               </div>
             </AnimationOnScroll>
             <div className="para px-[2rem] pb-8">
@@ -373,7 +373,7 @@ export default function Home() {
             </div>
             <AnimationOnScroll animateIn="animate__fadeInUp" duration={0.5} animateOnce={true}>
               <div className="text px-[2rem] pb-[2rem]">
-                <h1 className='text-[2.5rem] text-white' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>Commited</h1>
+                <h2 className='text-[2.5rem] text-white' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>Commited</h2>
               </div>
             </AnimationOnScroll>
             <div className="para px-[2rem] pb-8">
@@ -386,7 +386,7 @@ export default function Home() {
             </div>
             <AnimationOnScroll animateIn="animate__fadeInUp" duration={0.5} animateOnce={true}>
               <div className="text px-[2rem] pb-[2rem]">
-                <h1 className='text-[2.5rem] text-white' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>Curious</h1>
+                <h2 className='text-[2.5rem] text-white' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>Curious</h2>
               </div>
             </AnimationOnScroll>
             <div className="para px-[2rem] pb-8">
@@ -431,7 +431,7 @@ export default function Home() {
           </div>
         </div>
         <div className="heading">
-          <h1 className="text-[3rem] text-white text-center" style={{ fontFamily: 'Quicksand, sans-serif', fontWeight: 600 }}>Have any projects in mind ?</h1>
+          <h2 className="text-[3rem] text-white text-center" style={{ fontFamily: 'Quicksand, sans-serif', fontWeight: 600 }}>Have any projects in mind ?</h2>
         </div>
         <div className="button py-8">
           <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" target={'_blank'} rel='noreferrer'><button className='px-8 py-2 bg-transparent border-2 border-[#00d69a] text-white text-lg hover:border-[#008549]' style={{ fontFamily: 'Quicksand, sans-serif' }}>GET STARTED</button></a>

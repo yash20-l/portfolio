@@ -27,7 +27,7 @@ const Skills = () => {
                 <div className="skills-section w-full rounded-xl lg:px-[10rem] py-[2rem]">
                     <div className="box">
                         {/* <div className="heading text-center py-4">
-                            <h1 className='text-[2rem] text-yellow-400'>What I Do</h1>
+                            <h2 className='text-[2rem] text-yellow-400'>What I Do</h2>
                         </div> */}
                         <div className="skillsIcons grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4" style={{ fontFamily: 'Quicksand, sans-serif' }}>
                             <div className="box-2">
@@ -37,7 +37,7 @@ const Skills = () => {
                                     </div>
                                 </div>
                                 <div className="text py-2">
-                                    <h1 className='text-white text-center'>HTML</h1>
+                                    <h2 className='text-white text-center'>HTML</h2>
                                 </div>
                             </div>
                             <div className="box-2">
@@ -47,7 +47,7 @@ const Skills = () => {
                                     </div>
                                 </div>
                                 <div className="text py-2">
-                                    <h1 className='text-white text-center'>CSS</h1>
+                                    <h2 className='text-white text-center'>CSS</h2>
                                 </div>
                             </div>
                             <div className="box-2">
@@ -57,7 +57,7 @@ const Skills = () => {
                                     </div>
                                 </div>
                                 <div className="text py-2">
-                                    <h1 className='text-white text-center'>JAVASCRIPT</h1>
+                                    <h2 className='text-white text-center'>JAVASCRIPT</h2>
                                 </div>
                             </div>
                             <div className="box-2">
@@ -67,7 +67,7 @@ const Skills = () => {
                                     </div>
                                 </div>
                                 <div className="text py-2">
-                                    <h1 className='text-white text-center'>NODE JS</h1>
+                                    <h2 className='text-white text-center'>NODE JS</h2>
                                 </div>
                             </div>
                             <div className="box-2">
@@ -77,7 +77,7 @@ const Skills = () => {
                                     </div>
                                 </div>
                                 <div className="text py-2">
-                                    <h1 className='text-white text-center'>DJANGO</h1>
+                                    <h2 className='text-white text-center'>DJANGO</h2>
                                 </div>
                             </div>
                             <div className="box-2">
@@ -87,7 +87,7 @@ const Skills = () => {
                                     </div>
                                 </div>
                                 <div className="text py-2">
-                                    <h1 className='text-white text-center'>FLASK</h1>
+                                    <h2 className='text-white text-center'>FLASK</h2>
                                 </div>
                             </div>
                             <div className="box-2">
@@ -97,7 +97,7 @@ const Skills = () => {
                                     </div>
                                 </div>
                                 <div className="text py-2">
-                                    <h1 className='text-white text-center'>REACT</h1>
+                                    <h2 className='text-white text-center'>REACT</h2>
                                 </div>
                             </div>
                             <div className="box-2">
@@ -107,7 +107,7 @@ const Skills = () => {
                                     </div>
                                 </div>
                                 <div className="text py-2">
-                                    <h1 className='text-white text-center'>NEXT JS</h1>
+                                    <h2 className='text-white text-center'>NEXT JS</h2>
                                 </div>
                             </div>
                             <div className="box-2">
@@ -117,7 +117,7 @@ const Skills = () => {
                                     </div>
                                 </div>
                                 <div className="text py-2">
-                                    <h1 className='text-white text-center'>WORDPRESS</h1>
+                                    <h2 className='text-white text-center'>WORDPRESS</h2>
                                 </div>
                             </div>
                             <div className="box-2">
@@ -127,7 +127,7 @@ const Skills = () => {
                                     </div>
                                 </div>
                                 <div className="text py-2">
-                                    <h1 className='text-white text-center'>SOCKET IO</h1>
+                                    <h2 className='text-white text-center'>SOCKET IO</h2>
                                 </div>
                             </div>
                             <div className="box-2">
@@ -137,7 +137,7 @@ const Skills = () => {
                                     </div>
                                 </div>
                                 <div className="text py-2">
-                                    <h1 className='text-white text-center'>MONGO DB</h1>
+                                    <h2 className='text-white text-center'>MONGO DB</h2>
                                 </div>
                             </div>
                             <div className="box-2">
@@ -147,7 +147,7 @@ const Skills = () => {
                                     </div>
                                 </div>
                                 <div className="text py-2">
-                                    <h1 className='text-white text-center'>WEBRTC</h1>
+                                    <h2 className='text-white text-center'>WEBRTC</h2>
                                 </div>
                             </div>
                             <div className="box-2">
@@ -157,7 +157,7 @@ const Skills = () => {
                                     </div>
                                 </div>
                                 <div className="text py-2">
-                                    <h1 className='text-white text-center'>AGORA</h1>
+                                    <h2 className='text-white text-center'>AGORA</h2>
                                 </div>
                             </div>
                             <div className="box-2">
@@ -167,7 +167,7 @@ const Skills = () => {
                                     </div>
                                 </div>
                                 <div className="text py-2">
-                                    <h1 className='text-white text-center'>FIREBASE</h1>
+                                    <h2 className='text-white text-center'>FIREBASE</h2>
                                 </div>
                             </div>
                         </div>

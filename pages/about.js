@@ -18,7 +18,7 @@ const About = () => {
             <div className="wrapper bg-[#2e2e2e] h-full px-[2rem] px-4 py-[2rem]">
                 <div className="text py-4  flex flex-row items-center">
                     <div className="dash w-[4rem] rounded-xl h-[5px] bg-[#00d69a] mx-4"></div>
-                    <h1 className="text-[2.5rem] text-left lg:text-[3rem] text-white" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>About Us</h1>
+                    <h2 className="text-[2.5rem] text-left lg:text-[3rem] text-white" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>About Us</h2>
                 </div>
                 <div className="subText">
                     <h2 className='text-[#00d69a] text-2xl text-center'>Who we are ?</h2>
