@@ -34,7 +34,7 @@ const Navbar = (props) => {
       <div className="mobile-menu flex flex-row bg-[#040d23] align-center justify-between px-2 lg:hidden">
         <div className="logowrapper flex flex-row items-center justify-center">
           <div className="logo py-2 px-2">
-            <Image src={'/logo3.jpg'} height={50} width={50} alt='logo'></Image>
+            <Image src={'/logo3.jpg'} priority height={50} width={50} alt='logo'></Image>
           </div>
           <div className="text px-2">
             <h1 className='text-[1.2rem] text-[#61e1e8]' style={{ fontFamily: 'Quicksand, sans-serif' }}>Atal Infotech</h1>
@@ -45,7 +45,7 @@ const Navbar = (props) => {
       <div className="desktop-menu px-20 hidden lg:flex lg:flex-row lg:align-center lg:justify-between">
         <div className="logowrapper flex flex-row items-center justify-center">
           <div className="logo py-2 px-2">
-            <Image src={'/logo3.jpg'} height={50} width={50} alt="desktop-logo"></Image>
+            <Image src={'/logo3.jpg'} priority height={50} width={50} alt="desktop-logo"></Image>
           </div>
           <div className="text px-2">
             <h1 className='text-[1.5rem] font-[Poppins, sans-serif] text-[#61e1e8]'>Atal Infotech</h1>
