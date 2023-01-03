@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
 import { HiMenuAlt3 } from 'react-icons/hi'
+import {AiFillCloseCircle} from "react-icons/ai"
 
 const Navbar = (props) => {
 
@@ -10,24 +11,26 @@ const Navbar = (props) => {
 
   const handleOnClick = () => {
     document.getElementById('menu-options').classList.toggle('hidden')
+    document.getElementById('closebtn').classList.toggle('hidden')
+    document.getElementById('openbtn').classList.toggle('hidden')
   }
 
 
   return (
     <div className="navbar-wrapper bg-[#040d23] relative">
-      <div id='menu-options' className="mobile-menu-options hidden absolute z-[10] w-[12rem] sticky top-0 h-screen bg-gray-900 text-white w-[5rem] px-2 lg:hidden">
-        <div className="options py-2">
+            <div id='menu-options' className="mobile-menu-options hidden transition ease-in-out duration-200 overflow-x-hidden left-0 z-[10] top-0 w-full h-full bg-gray-900 fixed text-white px-2 lg:hidden">
+        <div className="options py-2 flex flex-col items-center justify-center h-full w-full">
           <div className="option-tile pl-4 py-2 flex flex-row items-center justify-start">
-            <span style={{fontFamily:'Poppins, sans-serif'}} className="text-[1.2rem]">Home</span>
+            <Link href='/'><span style={{fontFamily:'Poppins, sans-serif'}} className="text-[2rem]">Home</span></Link>
           </div>
           <div className="option-tile py-2 pl-4 flex flex-row items-center justify-start">
-            <span style={{fontFamily:'Poppins, sans-serif'}} className="text-[1.2rem]" >Skills</span>
+            <Link href={'/skills'}><span style={{fontFamily:'Poppins, sans-serif'}} className="text-[2rem]" >Skills</span></Link>
           </div>
           <div className="option-tile py-2 pl-4 flex flex-row items-center justify-start">
-            <span style={{fontFamily:'Poppins, sans-serif'}} className="text-[1.2rem]">About</span>
+            <Link href={'/about'}><span style={{fontFamily:'Poppins, sans-serif'}} className="text-[2rem]">About</span></Link>
           </div>
           <div className="option-tile py-2 pl-4 flex flex-row items-center justify-start">
-            <span style={{fontFamily:'Poppins, sans-serif'}} className="text-[1.2rem]">Work</span>
+            <Link href={'/work'}><span style={{fontFamily:'Poppins, sans-serif'}} className="text-[2rem]">Work</span></Link>
           </div>
         </div>
       </div>
@@ -40,7 +43,8 @@ const Navbar = (props) => {
             <h1 className='text-[1.2rem] text-[#61e1e8]' style={{ fontFamily: 'Quicksand, sans-serif' }}>Atal Infotech</h1>
           </div>
         </div>
-        <HiMenuAlt3 size={30} className="my-2" color='#61e1e8' onClick={handleOnClick}></HiMenuAlt3>
+        <HiMenuAlt3 size={30} id='openbtn' className="my-2" color='#61e1e8' onClick={handleOnClick}></HiMenuAlt3>
+        <AiFillCloseCircle id='closebtn' size={40} className="my-2 z-[10] hidden fixed top-0 right-0" color='#DC143C' onClick={handleOnClick}></AiFillCloseCircle>
       </div>
       <div className="desktop-menu px-20 hidden lg:flex lg:flex-row lg:align-center lg:justify-between">
         <div className="logowrapper flex flex-row items-center justify-center">

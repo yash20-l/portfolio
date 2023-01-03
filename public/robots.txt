@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap : https://atalinfotech.vercel.app/sitemap.xml
