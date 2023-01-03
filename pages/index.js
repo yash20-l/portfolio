@@ -126,7 +126,7 @@ export default function Home() {
             <div className="content-subwrapper text-center">
               <h1 className="text-[2.2rem]" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600, color: 'white' }}>Creative solutions to digital challenges</h1>
               <div className="button py-8">
-                <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" target={'_blank'} rel='norefferer'><button className='px-8 py-2 bg-transparent border-2 border-[#00d69a] text-white text-lg hover:border-[#008549]' style={{ fontFamily: 'Quicksand, sans-serif' }}>GET STARTED</button></a>
+                <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" target={'_blank'} rel='noreferrer'><button className='px-8 py-2 bg-transparent border-2 border-[#00d69a] text-white text-lg hover:border-[#008549]' style={{ fontFamily: 'Quicksand, sans-serif' }}>GET STARTED</button></a>
               </div>
               <div className="social-icons flex flex-row items-center justify-center py-2">
                 <AiFillGithub size={30} color='white' className='mx-[5px] hover:cursor-pointer'></AiFillGithub>
@@ -434,7 +434,7 @@ export default function Home() {
           <h1 className="text-[3rem] text-white text-center" style={{ fontFamily: 'Quicksand, sans-serif', fontWeight: 600 }}>Have any projects in mind ?</h1>
         </div>
         <div className="button py-8">
-          <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" target={'_blank'} rel='norefferer'><button className='px-8 py-2 bg-transparent border-2 border-[#00d69a] text-white text-lg hover:border-[#008549]' style={{ fontFamily: 'Quicksand, sans-serif' }}>GET STARTED</button></a>
+          <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" target={'_blank'} rel='noreferrer'><button className='px-8 py-2 bg-transparent border-2 border-[#00d69a] text-white text-lg hover:border-[#008549]' style={{ fontFamily: 'Quicksand, sans-serif' }}>GET STARTED</button></a>
         </div>
       </div>
       <Footer></Footer>
