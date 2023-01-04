@@ -13,7 +13,7 @@ const Footer = () => {
                             <li className='text-white list-item text-lg'>Digital Marketing</li>
                             <li className='text-white list-item text-lg'>Website Services</li>
                             <li className='text-white list-item text-lg'>Social Media Handle</li>
-                            <li className='text-white list-item text-lg'>UI/UX Servuces</li>
+                            <li className='text-white list-item text-lg'>UI/UX Services</li>
                         </ul>
                     </div>
                 </div>
