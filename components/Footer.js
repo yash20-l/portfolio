@@ -34,13 +34,10 @@ const Footer = () => {
                     </div>
                     <div className="social-icons py-4 flex flex-row">
                         <div className="icon p-2 mx-2 rounded-full bg-transparent border-2 cursor-pointer border-[#00d69a] hover:border-[#008549]">
-                            <AiFillFacebook color='#ffffff' size={20}></AiFillFacebook>
+                        <a href="https://www.instagram.com/atalinfotech/" target="_blank" rel='noreferrer'><AiFillInstagram color='#ffffff' size={20}></AiFillInstagram></a>
                         </div>
                         <div className="icon p-2 mx-2 rounded-full bg-transparent border-2 cursor-pointer border-[#00d69a] hover:border-[#008549]">
-                            <AiFillInstagram color='#ffffff' size={20}></AiFillInstagram>
-                        </div>
-                        <div className="icon p-2 mx-2 rounded-full bg-transparent border-2 cursor-pointer border-[#00d69a] hover:border-[#008549]">
-                            <AiFillGithub color='#ffffff' size={20}></AiFillGithub>
+                        <a href="https://www.facebook.com/atalinfotech19/" target="_blank" rel='noreferrer'><AiFillFacebook color='#ffffff' size={20}></AiFillFacebook></a>
                         </div>
                         <div className="icon p-2 mx-2 rounded-full bg-transparent border-2 cursor-pointer border-[#00d69a] hover:border-[#008549]">
                             <AiFillTwitterCircle color='#ffffff' size={20}></AiFillTwitterCircle>
