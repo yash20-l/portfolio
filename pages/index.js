@@ -129,10 +129,9 @@ export default function Home() {
                 <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" target={'_blank'} rel='noreferrer'><button className='px-8 py-2 bg-transparent border-2 border-[#00d69a] text-white text-lg hover:border-[#008549]' style={{ fontFamily: 'Quicksand, sans-serif' }}>GET STARTED</button></a>
               </div>
               <div className="social-icons flex flex-row items-center justify-center py-2">
-                <AiFillGithub size={30} color='white' className='mx-[5px] hover:cursor-pointer'></AiFillGithub>
-                <AiFillInstagram size={30} color='white' className='mx-[5px] hover:cursor-pointer'></AiFillInstagram>
+                <a href="https://www.instagram.com/atalinfotech/" target="_blank" rel='noreferrer'><AiFillInstagram size={30} color='white' className='mx-[5px] hover:cursor-pointer'></AiFillInstagram></a>
                 <AiFillTwitterCircle size={30} color='white' className='mx-[5px] hover:cursor-pointer'></AiFillTwitterCircle>
-                <AiFillFacebook size={30} color='white' className='mx-[5px] hover:cursor-pointer'></AiFillFacebook>
+                <a href="https://www.facebook.com/atalinfotech19/" target="_blank" rel='noreferrer'><AiFillFacebook size={30} color='white' className='mx-[5px] hover:cursor-pointer'></AiFillFacebook></a>
               </div>
             </div>
           </div>
