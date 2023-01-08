@@ -7,7 +7,7 @@ import { AiFillInstagram, AiFillTwitterCircle, AiFillGithub, AiFillFacebook, AiF
 import Navbar from '../components/Navbar';
 import Footer from "../components/Footer";
 
-const Index = () => {
+const Home = () => {
 
     const HideShowContent = (id) => {
         document.getElementById(id).classList.toggle('hidden')
@@ -39,7 +39,7 @@ const Index = () => {
                 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet"></link>
                 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet" />
                 <title>Atal Infotech | Digital Marketing | Website Development | SEO | Graphic Designing | Content Marketing</title>
-                <meta name="description" content="Atal Infotech is a digital marketing provider in mohali. We provide professional digital marketing services to boost your business and helps generating organic traffic." />
+                <meta name="description" content="Atal Infotech is a digital marketing provider in mohali. We provide professional digital marketing services to boost your business." />
             </Head>
 
             <div className="pagewrapper">
@@ -58,7 +58,7 @@ const Index = () => {
                             <span className='text-white px-2'>+91 9115479004</span>
                         </div>
                     </div>
-                    <Navbar active={0}></Navbar>
+                    <Navbar></Navbar>
                 </div>
                 <Carousel></Carousel>
                 <div className="heading py-4">
@@ -79,53 +79,53 @@ const Index = () => {
                         to reach the global standards. Our SEO services ensures that you stay at top of the page.
                     </p>
                 </div>
-                <div className="services md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-8 bg-gray-100 px-[2rem] py-[5rem]">
-                    <div className="servicebox shadow-md shadow-gray-700  ease-in duration-200 hover:shadow-blue-500 hover:shadow-lg my-4 p-4 cursor-pointer rounded-xl bg-white rounded-xl py-[2rem]">
+                <div className="services md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-8 bg-gray-200 px-[2rem] py-[5rem]">
+                    <div className="servicebox my-4 p-4 cursor-pointer rounded-xl bg-white rounded-xl py-[2rem]">
                         <div className="image">
-                            <Image src={'/services/seo.png'} height={100} width={100} alt="seo_image"></Image>
+                            <Image src={'/services/seo.png'} height={100} width={100}></Image>
                         </div>
                         <div className="text py-2"><h2 className='text-xl text-red-600 text-left' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500 }}>Search Engine Optimization</h2></div>
-                        <p  style={{ fontFamily: 'Quicksand, sans-serif' }}>We use the best and most effecient search engine optimization strategies for up ranking of your website. We are the leading SEO provider in Mohali. Appearing in top of the results is a complex and time taking process but once done it gives tons of potential and loyal customers and the effect is long lasting.</p>
+                        <p className='' style={{ fontFamily: 'Quicksand, sans-serif' }}>We plan the best campaigns for PPC Ads that will surely help you win loyal and potential customers with little efforts. Marketing Fundas is your one-stop destination for PPC service.</p>
                         <a href="#"><p className='my-2 text-red-700'>read more...</p></a>
                     </div>
-                    <div className="servicebox shadow-md shadow-gray-700  ease-in duration-200 hover:shadow-blue-500 hover:shadow-lg my-4 p-4 cursor-pointer rounded-xl bg-white rounded-xl py-[2rem]">
+                    <div className="servicebox my-4 p-4 cursor-pointer rounded-xl bg-white rounded-xl py-[2rem]">
                         <div className="image">
-                            <Image src={'/services/digitalmarketing.png'} height={100} width={100} alt="digitalmarketing"></Image>
+                            <Image src={'/services/digitalmarketing.png'} height={100} width={100}></Image>
                         </div>
                         <div className="text py-2"><h2 className='text-xl text-red-600 text-left' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500 }}>Digital Marketing</h2></div>
-                        <p style={{ fontFamily: 'Quicksand, sans-serif' }}>Digital marketing are the set of strategies used to promote your brand through online medium. We provide all kinds of digital marketing services in mohali. Digital marketing is the best and most efficient way of generating organic traffic through internet.</p>
+                        <p>We plan the best campaigns for PPC Ads that will surely help you win loyal and potential customers with little efforts. Marketing Fundas is your one-stop destination for PPC service.</p>
                         <a href="#"><p className='my-2 text-red-700'>read more...</p></a>
                     </div>
-                    <div className="servicebox shadow-md shadow-gray-700  ease-in duration-200 hover:shadow-blue-500 hover:shadow-lg my-4 p-4 cursor-pointer rounded-xl bg-white rounded-xl py-[2rem]">
+                    <div className="servicebox my-4 p-4 cursor-pointer rounded-xl bg-white rounded-xl py-[2rem]">
                         <div className="image">
-                            <Image src={'/services/contentwriting.png'} height={100} width={100} alt="contentwriting"></Image>
+                            <Image src={'/services/contentwriting.png'} height={100} width={100}></Image>
                         </div>
                         <div className="text py-2"><h2 className='text-xl text-red-600 text-left' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500 }}>Content Writing</h2></div>
-                        <p style={{ fontFamily: 'Quicksand, sans-serif' }}>Weather it is digital marketing or it's your personal blog website it all requires quality and eye catching content to grap the audience attention. We have a team of experienced and creative brains which will provide you the most optimized and quality content to boost your business.</p>
+                        <p>We plan the best campaigns for PPC Ads that will surely help you win loyal and potential customers with little efforts. Marketing Fundas is your one-stop destination for PPC service.</p>
                         <a href="#"><p className='my-2 text-red-700'>read more...</p></a>
                     </div>
-                    <div className="servicebox shadow-md shadow-gray-700  ease-in duration-200 hover:shadow-blue-500 hover:shadow-lg my-4 p-4 cursor-pointer rounded-xl bg-white rounded-xl py-[2rem]">
+                    <div className="servicebox my-4 p-4 cursor-pointer rounded-xl bg-white rounded-xl py-[2rem]">
                         <div className="image">
-                            <Image src={'/services/webdesign1.png'} height={100} width={100} alt="webdesign"></Image>
+                            <Image src={'/services/webdesign.png'} height={100} width={100}></Image>
                         </div>
                         <div className="text py-2"><h2 className='text-xl text-red-600 text-left' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500 }}>Website Design</h2></div>
-                        <p style={{ fontFamily: 'Quicksand, sans-serif' }}>Modern websites needs modern user interface for it's users that's why we are here for you. All our website designs are fully responsive and easy to use. clear text, easy navigation, smooth transitions and quality design are some of the features of the websites developed by our professional web developers.</p>
+                        <p>We plan the best campaigns for PPC Ads that will surely help you win loyal and potential customers with little efforts. Marketing Fundas is your one-stop destination for PPC service.</p>
                         <a href="#"><p className='my-2 text-red-700'>read more...</p></a>
                     </div>
-                    <div className="servicebox shadow-md shadow-gray-700  ease-in duration-200 hover:shadow-blue-500 hover:shadow-lg my-4 p-4 cursor-pointer rounded-xl bg-white rounded-xl py-[2rem]">
+                    <div className="servicebox my-4 p-4 cursor-pointer rounded-xl bg-white rounded-xl py-[2rem]">
                         <div className="image">
-                            <Image src={'/services/socialmediamarketing.png'} height={100} width={100} alt="socialmediamarketing"></Image>
+                            <Image src={'/services/socialmediamarketing.png'} height={100} width={100}></Image>
                         </div>
                         <div className="text py-2"><h2 className='text-xl text-red-600 text-left' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500 }}>Social Media Optimization</h2></div>
-                        <p style={{ fontFamily: 'Quicksand, sans-serif' }}>Today everyone does'nt matter which age group they belong to, spents some time on social media and here comes the role of social media optimization. Optimizing your social media accounts gives you a golden oppurtunity to gain organic traffic. We provide social media optimizations in great price range.</p>
+                        <p>We plan the best campaigns for PPC Ads that will surely help you win loyal and potential customers with little efforts. Marketing Fundas is your one-stop destination for PPC service.</p>
                         <a href="#"><p className='my-2 text-red-700'>read more...</p></a>
                     </div>
-                    <div className="servicebox shadow-md shadow-gray-700  ease-in duration-200 hover:shadow-blue-500 hover:shadow-lg my-4 p-4 cursor-pointer rounded-xl bg-white rounded-xl py-[2rem]">
+                    <div className="servicebox my-4 p-4 cursor-pointer rounded-xl bg-white rounded-xl py-[2rem]">
                         <div className="image">
-                            <Image src={'/website/ecommerce.png'} height={100} width={100} alt="ecommerce"></Image>
+                            <Image src={'/services/ecommerce.png'} height={100} width={100}></Image>
                         </div>
                         <div className="text py-2"><h2 className='text-xl text-red-600 text-left' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500 }}>E Commerce Solutions</h2></div>
-                        <p style={{ fontFamily: 'Quicksand, sans-serif' }}>E-Commerce websites gives you a pathway to extend your local shop product's range and gain more loyal and potential customers. We provide the best and most cost efficient e-commerce solutions to our clients. Easy payments, Fully responsive, Authentication and authorization, In store carts, etc are some features of e-commerce websites developed by us.</p>
+                        <p>We plan the best campaigns for PPC Ads that will surely help you win loyal and potential customers with little efforts. Marketing Fundas is your one-stop destination for PPC service.</p>
                         <a href="#"><p className='my-2 text-red-700'>read more...</p></a>
                     </div>
                 </div>
@@ -168,28 +168,28 @@ const Index = () => {
                                 </div>
                             </div>
                             <div className="illustration w-full h-[30vh] md:h-[50vh] lg:h-[60vh] relative">
-                                <Image src={'/utils/faq-digi-marketing.jpg'} fill alt='faq-digi-marketing'></Image>
+                                <Image src={'/utils/faq-digi-marketing.jpg'} fill></Image>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="aboutsection bg-white">
-                    <div className="heading pt-[2rem]">
+                    <div className="heading py-4">
                         <h2 className='text-gray-600 text-[1.5rem] md:text-[2rem] text-center' style={{fontFamily:"Poppins, sans-serif", fontWeight:500}}>Why Choose <span className='text-red-500' style={{fontWeight:700}}>Atal Infotech </span>for SEO Services ?</h2>
                     </div>
                     <div className="para md:grid md:grid-cols-2 md:gap-4">
                         <p className='flex flex-col items-center justify-center text-gray-600 text-left py-4 px-4' style={{fontFamily:"Quicksand, sans-serif"}}>
-                            SEO is set of strategies to optimize your website which search engines use to rank your website.
-                            We have team of experienced and creative brains which always gives their best. With our SEO Services
+                            SEO is set of stragies to optamize your site which search engines use to rank your website.
+                            We have team of experianced and creative brains which always gives their best. With our SEO Services
                             , the chances of your page to appear on first page of Google increases. We use effective and up to date
                             methods for optimization of your site. SEO is usually a long and slow process. With our SEO services your 
-                            site presence on the web will surely start increasing. Our experience and skills will result in more potential 
+                            site presence on the web will surely start increasing. Our experiance and skills will result in more potential 
                             audiance to your business. Our supreme motive is to provide most effective yet affordable search engine optimization 
                             services to our clients. Hire Attal Infotech for most reliable, affordable and effective search engine optimization 
                             services within your budget.
                         </p>
                         <div className="image h-[50vh] md:h-[60vh] lg:h-[80vh] w-full relative">
-                            <Image src={'/utils/seo.jpg'} fill alt='seo_image'></Image>
+                            <Image src={'/utils/seo.jpg'} fill></Image>
                         </div>
                     </div>
                 </div>
@@ -215,4 +215,4 @@ const Index = () => {
 }
 
 
-export default Index
+export default Home

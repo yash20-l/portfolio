@@ -17,17 +17,17 @@ const Navbar = (props) => {
 
 
   return (
-    <div className="navbar-wrapper bg-[#040d23] relative">
+    <div className="navbar-wrapper bg-[#040d23] static w-full">
             <div id='menu-options' className="mobile-menu-options hidden transition ease-in-out duration-200 overflow-x-hidden left-0 z-[10] top-0 w-full h-full bg-gray-900 fixed text-white px-2 lg:hidden">
         <div className="options py-2 flex flex-col items-center justify-center h-full w-full">
           <div className="option-tile pl-4 py-2 flex flex-row items-center justify-start">
             <Link href='/'><span style={{fontFamily:'Poppins, sans-serif'}} className="text-[2rem]">Home</span></Link>
           </div>
           <div className="option-tile py-2 pl-4 flex flex-row items-center justify-start">
-            <Link href={'/skills'}><span style={{fontFamily:'Poppins, sans-serif'}} className="text-[2rem]" >Skills</span></Link>
+            <Link href={'/digital-marketing'}><span style={{fontFamily:'Poppins, sans-serif'}} className="text-[2rem]" >Digital Marketing</span></Link>
           </div>
           <div className="option-tile py-2 pl-4 flex flex-row items-center justify-start">
-            <Link href={'/about'}><span style={{fontFamily:'Poppins, sans-serif'}} className="text-[2rem]">About</span></Link>
+            <Link href={'/website-services'}><span style={{fontFamily:'Poppins, sans-serif'}} className="text-[2rem]">Website Services</span></Link>
           </div>
           <div className="option-tile py-2 pl-4 flex flex-row items-center justify-start">
             <Link href={'/contact'}><span style={{fontFamily:'Poppins, sans-serif'}} className="text-[2rem]">Contact Us</span></Link>
@@ -73,24 +73,24 @@ const Navbar = (props) => {
             <div className="menu-ul relative py-2" onClick={() => { setActive(1) }}>
               {active == 1 ? (
                 <>
-                  <Link href={'/skills'}><li className='px-2 text-lg text-[#61e1e8]' style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 600 }}>Skills</li></Link>
-                  <div className="dash h-[5px] w-16 bg-[#00d69a] absolute rounded-xl bottom-0"></div>
+                  <Link href={'/digital-marketing'}><li className='px-2 text-lg text-[#61e1e8]' style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 600 }}>Digital Marketing</li></Link>
+                  <div className="dash h-[3px] w-[10rem] bg-[#00d69a] absolute rounded-xl bottom-0"></div>
                 </>
               ) : (
                 <>
-                  <Link href={'/skills'}><li className='px-2 text-lg text-[#61e1e8]' style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 600 }}>Skills</li></Link>
+                  <Link href={'/digital-marketing'}><li className='px-2 text-lg text-[#61e1e8]' style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 600 }}>Digital Marketing</li></Link>
                 </>
               )}
             </div>
             <div className="menu-ul relative py-2" onClick={() => { setActive(2) }}>
               {active == 2 ? (
                 <>
-                  <Link href={'/about'}><li className='px-2 text-lg text-[#61e1e8]' style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 600 }}>About</li></Link>
-                  <div className="dash h-[5px] w-16 bg-[#00d69a] absolute rounded-xl bottom-0"></div>
+                  <Link href={'/website-services'}><li className='px-2 text-lg text-[#61e1e8]' style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 600 }}>Website Services</li></Link>
+                  <div className="dash h-[3px] w-[10rem] bg-[#00d69a] absolute rounded-xl bottom-0"></div>
                 </>
               ) : (
                 <>
-                  <Link href={'/about'}><li className='px-2 text-lg text-[#61e1e8]' style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 600 }}>About</li></Link>
+                  <Link href={'/website-services'}><li className='px-2 text-lg text-[#61e1e8]' style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 600 }}>Website Services</li></Link>
                 </>
               )}
             </div>
@@ -98,7 +98,7 @@ const Navbar = (props) => {
               {active == 3 ? (
                 <>
                   <Link href={'/contact'}><li className='px-2 text-lg text-[#61e1e8]' style={{ fontFamily: 'Roboto, sans-serif', fontWeight: 600 }}>Contact Us</li></Link>
-                  <div className="dash h-[5px] w-28 bg-[#00d69a] absolute rounded-xl bottom-0"></div>
+                  <div className="dash h-[3px] w-28 bg-[#00d69a] absolute rounded-xl bottom-0"></div>
                 </>
               ) : (
                 <>
