@@ -109,9 +109,8 @@ const DigitalMarketing = () => {
                             </div>
                             <div className='col-span-2'>
                                 <h2 className="text-gray-700 text-[1.5rem] px-2" style={{ fontFamily: "Raleway, sans-serif", fontWeight: 700 }}>Social Media <span className="relative before:content-[''] before:absolute before:bg-red-500 before:h-[4px] before:rounded-xl before:w-[9.5rem] before:bottom-0 before:right-[0rem] py-2">Optimization</span></h2>
-                                <p className='px-2 text-gray-800 py-4' style={{ fontFamily: "Raleway, sans-serif" }}>In today's modern world, social media has becomed like a habit to us. We all spend some time everyday on social media and here comes the concept of
-                                    social media optimization. Having a optimized social media account is demand of every small or medium scale business and that's why we provide you with our best social media optimization services. Original and organic content is very important for brand building. We act on all popular social media platforms i.e
-                                    Youtube, Facebook, Twitter, and Instagram.</p>
+                                <p className='px-2 text-gray-800 py-4' style={{ fontFamily: "Raleway, sans-serif" }}>When talking about digital marketing we can&apos;t forget social media because social media platforms like Youtube, Facebook, Instagram have
+                                millions of daily active users. Optimizing your social media accounts can help you reach tons of new customers everyday.</p>
                             </div>
                         </div>
                         <div className="seo my-4 grid grid-cols-3 gap-4 py-4 rounded-2xl shadow-md shadow-gray-500 bg-gray-100 px-2 py-4">
@@ -129,7 +128,7 @@ const DigitalMarketing = () => {
                 <div>
                     <div className="py-4 px-2 bg-red-500 rounded-xl">
                         <div className="contact-form">
-                            <h4 className="text-center py-2 text-white text-[1.5rem]" style={{ fontFamily: "Poppins, sans-serif", fontWeight: 500 }}>LET'S TALK</h4>
+                            <h4 className="text-center py-2 text-white text-[1.5rem]" style={{ fontFamily: "Poppins, sans-serif", fontWeight: 500 }}>LET&apos;S TALK</h4>
                             <div className="form px-4 py-8">
                                 <div className="part1">
                                     <input type="text" className='py-2 mb-4 px-4 bg-white w-full outline-none text-white' placeholder='Your Name' style={{ fontFamily: "Poppins, sans-serif" }} />

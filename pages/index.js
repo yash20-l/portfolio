@@ -85,7 +85,7 @@ const Index = () => {
                             <Image src={'/services/seo.png'} height={100} width={100} alt="seo_image"></Image>
                         </div>
                         <div className="text py-2"><h2 className='text-xl text-red-600 text-left' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500 }}>Search Engine Optimization</h2></div>
-                        <p  style={{ fontFamily: 'Quicksand, sans-serif' }}>We use the best and most effecient search engine optimization strategies for up ranking of your website. We are the leading SEO provider in Mohali. Appearing in top of the results is a complex and time taking process but once done it gives tons of potential and loyal customers and the effect is long lasting.</p>
+                        <p  style={{ fontFamily: 'Quicksand, sans-serif' }}>We use the best and most effecient search engine optimization strategies for up ranking of your website. We are the leading SEO provider in Mohali. Appearing in top of the search results is a complex and time taking process but once done it gives tons of potential and loyal customers and the effect is long lasting.</p>
                         <a href="#"><p className='my-2 text-red-700'>read more...</p></a>
                     </div>
                     <div className="servicebox shadow-md shadow-gray-700  ease-in duration-200 hover:shadow-blue-500 hover:shadow-lg my-4 p-4 cursor-pointer rounded-xl bg-white rounded-xl py-[2rem]">
@@ -101,7 +101,7 @@ const Index = () => {
                             <Image src={'/services/contentwriting.png'} height={100} width={100} alt="contentwriting"></Image>
                         </div>
                         <div className="text py-2"><h2 className='text-xl text-red-600 text-left' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500 }}>Content Writing</h2></div>
-                        <p style={{ fontFamily: 'Quicksand, sans-serif' }}>Weather it is digital marketing or it's your personal blog website it all requires quality and eye catching content to grap the audience attention. We have a team of experienced and creative brains which will provide you the most optimized and quality content to boost your business.</p>
+                        <p style={{ fontFamily: 'Quicksand, sans-serif' }}>Weather it is digital marketing or it&apos;s your personal blog website it all requires quality and eye catching content to grab the audience attention. We have a team of experienced and creative brains which will provide you the most optimized and quality content to boost your business.</p>
                         <a href="#"><p className='my-2 text-red-700'>read more...</p></a>
                     </div>
                     <div className="servicebox shadow-md shadow-gray-700  ease-in duration-200 hover:shadow-blue-500 hover:shadow-lg my-4 p-4 cursor-pointer rounded-xl bg-white rounded-xl py-[2rem]">
@@ -109,7 +109,7 @@ const Index = () => {
                             <Image src={'/services/webdesign1.png'} height={100} width={100} alt="webdesign"></Image>
                         </div>
                         <div className="text py-2"><h2 className='text-xl text-red-600 text-left' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500 }}>Website Design</h2></div>
-                        <p style={{ fontFamily: 'Quicksand, sans-serif' }}>Modern websites needs modern user interface for it's users that's why we are here for you. All our website designs are fully responsive and easy to use. clear text, easy navigation, smooth transitions and quality design are some of the features of the websites developed by our professional web developers.</p>
+                        <p style={{ fontFamily: 'Quicksand, sans-serif' }}>Modern websites needs modern user interface for it&apos;s users that&apos;s why we are here to help you. All our website designs are fully responsive and easy to use. clear text, easy navigation, smooth transitions and quality design are some of the features of the websites developed by our professional web developers.</p>
                         <a href="#"><p className='my-2 text-red-700'>read more...</p></a>
                     </div>
                     <div className="servicebox shadow-md shadow-gray-700  ease-in duration-200 hover:shadow-blue-500 hover:shadow-lg my-4 p-4 cursor-pointer rounded-xl bg-white rounded-xl py-[2rem]">
@@ -117,7 +117,7 @@ const Index = () => {
                             <Image src={'/services/socialmediamarketing.png'} height={100} width={100} alt="socialmediamarketing"></Image>
                         </div>
                         <div className="text py-2"><h2 className='text-xl text-red-600 text-left' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500 }}>Social Media Optimization</h2></div>
-                        <p style={{ fontFamily: 'Quicksand, sans-serif' }}>Today everyone does'nt matter which age group they belong to, spents some time on social media and here comes the role of social media optimization. Optimizing your social media accounts gives you a golden oppurtunity to gain organic traffic. We provide social media optimizations in great price range.</p>
+                        <p style={{ fontFamily: 'Quicksand, sans-serif' }}>Today everyone does&apos;nt matter which age group they belong to, spents some time on social media and here comes the role of social media optimization. Optimizing your social media accounts gives you a golden oppurtunity to gain organic traffic. We provide social media optimizations in great price range.</p>
                         <a href="#"><p className='my-2 text-red-700'>read more...</p></a>
                     </div>
                     <div className="servicebox shadow-md shadow-gray-700  ease-in duration-200 hover:shadow-blue-500 hover:shadow-lg my-4 p-4 cursor-pointer rounded-xl bg-white rounded-xl py-[2rem]">
@@ -125,7 +125,7 @@ const Index = () => {
                             <Image src={'/website/ecommerce.png'} height={100} width={100} alt="ecommerce"></Image>
                         </div>
                         <div className="text py-2"><h2 className='text-xl text-red-600 text-left' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500 }}>E Commerce Solutions</h2></div>
-                        <p style={{ fontFamily: 'Quicksand, sans-serif' }}>E-Commerce websites gives you a pathway to extend your local shop product's range and gain more loyal and potential customers. We provide the best and most cost efficient e-commerce solutions to our clients. Easy payments, Fully responsive, Authentication and authorization, In store carts, etc are some features of e-commerce websites developed by us.</p>
+                        <p style={{ fontFamily: 'Quicksand, sans-serif' }}>E-Commerce websites gives you a pathway to extend your local shop product&apos;s range and gain more loyal and potential customers. We provide the best and most cost efficient e-commerce solutions to our clients. Easy payments, Fully responsive, Authentication and authorization, In store carts, etc are some features of e-commerce websites developed by us.</p>
                         <a href="#"><p className='my-2 text-red-700'>read more...</p></a>
                     </div>
                 </div>
@@ -139,7 +139,7 @@ const Index = () => {
                                 <div className="faq-box border-2 my-[2rem] border-blue-300">
                                     <button className='w-full text-left px-2 py-2 bg-blue-600 text-white outline-none' style={{ fontFamily: "Poppins, sans-serif", fontWeight: 500 }} onClick={() => { HideShowContent('faq1') }}>WHAT IS DIGITAL MARKETING ?</button>
                                     <div className="hidden content text-left text-black px-2 pt-4 pb-2 rounded-xl" id='faq1'>
-                                        <p className='text-gray-600' style={{ fontFamily: "Quicksand, sans-serif" }}>Digital marketing, also called online marketing, is used to connect with customers by means of internet. As in today's world internet is a important part of our lives, Digital marketing is a proven way to target your audience around the globe. We tend to deliver best digital marketing services at minimum costs.</p>
+                                        <p className='text-gray-600' style={{ fontFamily: "Quicksand, sans-serif" }}>Digital marketing, also called online marketing, is used to connect with new potential customers by means of internet. As in today&apos;s world, the internet is an important part of our lives, Digital marketing is a proven way to target your audience around the globe. We tend to deliver best digital marketing services at minimum costs.</p>
                                     </div>
                                 </div>
                                 <div className="faq-box border-2 my-[2rem] border-blue-300">
@@ -151,13 +151,13 @@ const Index = () => {
                                 <div className="faq-box border-2 my-[2rem] border-blue-300">
                                     <button className='w-full text-left px-2 py-2 bg-blue-600 text-white outline-none' style={{ fontFamily: "Poppins, sans-serif", fontWeight: 500 }} onClick={() => { HideShowContent('faq3') }}>WHAT ARE SEO SERVICES ?</button>
                                     <div id='faq3' className="hidden content text-left text-black px-2 pt-4 pb-2 rounded-xl">
-                                        <p className='text-gray-600' style={{ fontFamily: "Quicksand, sans-serif" }}>SEO or Search Engine Optiimization is a technique to optimize your website to be able to appear in search results. Think of that you are thinking of buying something online then the first thing you would do will search that on Google or any other search engine and here comes the role of SEO. If your website's SEO is good then your site may appear in the search results and the consumer would buy something from your site.</p>
+                                        <p className='text-gray-600' style={{ fontFamily: "Quicksand, sans-serif" }}>Just creating a website on web is not enough but you need to optimize it so that it can we showed in search results when someone searches a relivant keyword. Strategies used for optimizing a website is known as SEO. In order to generate more traffic to your site SEO is an imporant step. Atal Infotech is a leading SEO provider company in Mohali. we provide the best and most efficient SEO services to our clients.</p>
                                     </div>
                                 </div>
                                 <div className="faq-box border-2 my-[2rem] border-blue-300">
                                     <button className='w-full text-left px-2 py-2 bg-blue-600 text-white outline-none' style={{ fontFamily: "Poppins, sans-serif", fontWeight: 500 }} onClick={() => { HideShowContent('faq4') }}>WHAT A DIGITAL MARKETING AGENCY DO ?</button>
                                     <div id='faq4' className="hidden content text-left text-black px-2 pt-4 pb-2 rounded-xl">
-                                        <p className='text-gray-600' style={{ fontFamily: "Quicksand, sans-serif" }}>The main motive of a digital marketing agency is to take your brand online i.e improving your brand's online presence to generate more and more potential customers and hence boosting your business.</p>
+                                        <p className='text-gray-600' style={{ fontFamily: "Quicksand, sans-serif" }}>The main task of a digital marketing agency is to take your brand online i.e improving your brand&apos;s online presence to generate more and more potential customers and building your brand name.</p>
                                     </div>
                                 </div>
                                 <div className="faq-box border-2 my-[2rem] border-blue-300">

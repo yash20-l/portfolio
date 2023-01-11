@@ -12,7 +12,7 @@ import Image from 'next/image';
 const Carousel = () => {
     return (
         <Swiper
-            modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+            modules={[Navigation, Scrollbar, A11y, Autoplay]}
             slidesPerView={1}
             navigation
             autoplay={{delay:2000}}
@@ -22,18 +22,8 @@ const Carousel = () => {
             scrollbar={{ draggable: true }}
         >
             <SwiperSlide>
-                <div className="image h-[20vh] md:h-[30vh] lg:h-[40vh] w-[100vw] block">
-                    <Image src={'/Carousel/1.webp'} fill alt="slide1"></Image>
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div className="image h-[20vh] md:h-[30vh] lg:h-[40vh] w-[100vw] block">
-                    <Image src={'/Carousel/2.webp'} fill alt="slide2"></Image>
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div className="image h-[20vh] md:h-[30vh] lg:h-[40vh] w-[100vw] block">
-                    <Image src={'/Carousel/3.webp'} fill alt="slide3"></Image>
+                <div className="image h-[15vh] md:h-[30vh] lg:h-[40vh] w-[100vw] block">
+                    <Image src={'/Carousel/6-01.jpg'} fill alt="slide1"></Image>
                 </div>
             </SwiperSlide>
         </Swiper>

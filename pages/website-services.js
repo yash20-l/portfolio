@@ -118,7 +118,7 @@ const Website = () => {
                             </div>
                             <div className='col-span-2'>
                                 <h2 className='text-gray-700 text-[1.5rem] px-2' style={{ fontFamily: "Raleway, sans-serif", fontWeight: 700 }}>E-Commerce Solutions</h2>
-                                <p className='px-2 text-gray-800 py-4' style={{ fontFamily: "Raleway, sans-serif" }}>Online shopping is on fire nowadays. All of us shop a lot of stuff online. Online E Commerce website is a great idea of extending your local store's range and getting more potential customers. Our E Commerce solutions will help you to launch your products to all over the globe.</p>
+                                <p className='px-2 text-gray-800 py-4' style={{ fontFamily: "Raleway, sans-serif" }}>Online shopping is a trend nowadays. Online E Commerce website is a great idea of extending your local store&apos;s range and getting more potential customers. Our E-Commerce solutions will help you to launch your products to all over the globe.</p>
                             </div>
                         </div>
                         <div className="seo grid grid-cols-3 gap-4 my-4 py-4 mx-2 rounded-2xl shadow-md shadow-gray-800 bg-gray-100 px-2 py-4">
@@ -145,7 +145,7 @@ const Website = () => {
                 <div>
                     <div className="py-4 px-2 bg-red-500 rounded-xl">
                         <div className="contact-form">
-                            <h4 className="text-center py-2 text-white text-[1.5rem]" style={{ fontFamily: "Poppins, sans-serif", fontWeight: 500 }}>LET'S TALK</h4>
+                            <h4 className="text-center py-2 text-white text-[1.5rem]" style={{ fontFamily: "Poppins, sans-serif", fontWeight: 500 }}>LET&apos;S TALK</h4>
                             <div className="form px-4 py-8">
                                 <div className="part1">
                                     <input type="text" className='py-2 mb-4 px-4 bg-white w-full outline-none text-white' placeholder='Your Name' style={{ fontFamily: "Poppins, sans-serif" }} />
