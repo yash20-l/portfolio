@@ -34,8 +34,9 @@ const Index = () => {
     return (
         <div className="homewrapper">
             <Head>
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"></link>
-                <link rel="favicon" href="/yash.ico" />
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"></link>
+                <link rel="icon" href="/yash.ico" />
+                <link rel="apple-touch-icon" sizes="180x180" href="/yash.ico" />
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Rubik+Bubbles&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet"></link>
                 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet" />
@@ -46,8 +47,8 @@ const Index = () => {
             <div className="pagewrapper">
                 <Header page={0}></Header>
                 <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" className=" fixed h-[60px] w-[60px] bottom-[40px] right-[40px] bg-[#25d366] text-[#FFF] rounded-[50px] text-center text-[38px] z-[100]" rel="noreferrer" target="_blank">
-                <i class="fa fa-whatsapp my-float"></i>
-            </a>
+                    <i class="fa fa-whatsapp my-float"></i>
+                </a>
                 <Carousel></Carousel>
                 <div className="heading py-4">
                     <h1 className="text-center py-4 text-[2rem]" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 300 }}>
@@ -59,7 +60,7 @@ const Index = () => {
                         Atal Infotech is a IT and digital marketing company which provides digital marketing services. Digital marketing is a proven and efficient
                         way to gain more loyal customers online. Digital Marketing has been an integral part of strategic marketing campaigns.
                         Since digital marketing is a very vast field therefore it takes significant experience and efforts to run a efficient compaign. By using digital marketing strategies you can reach
-                        more potential consumers from all over the globe. 
+                        more potential consumers from all over the globe.
                     </p>
                     <p className='text-center w-full text-gray-800 py-4 text-[16px]' style={{ fontFamily: 'Quicksand, sans-serif' }}>Our digital marketing stratigies helps you to reach
                         vast number of consumers in very short time period. Here at Atal Infotech we help your business grow so that you can help us grow. Our services gives a push to your business and enables it
@@ -72,7 +73,7 @@ const Index = () => {
                             <Image src={'/services/seo.png'} height={100} width={100} alt="seo_image"></Image>
                         </div>
                         <div className="text py-2"><h2 className='text-xl text-red-600 text-left' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500 }}>Search Engine Optimization</h2></div>
-                        <p  style={{ fontFamily: 'Quicksand, sans-serif' }}>We use the best and most effecient search engine optimization strategies for ranking your website. We are the leading SEO provider in Mohali. Appearing in top of the search results is a complex and time taking process but once done it gives tons of potential and loyal customers and the effect is long lasting.</p>
+                        <p style={{ fontFamily: 'Quicksand, sans-serif' }}>We use the best and most effecient search engine optimization strategies for ranking your website. We are the leading SEO provider in Mohali. Appearing in top of the search results is a complex and time taking process but once done it gives tons of potential and loyal customers and the effect is long lasting.</p>
                         <a href="#"><p className='my-2 text-red-700'>read more...</p></a>
                     </div>
                     <div className="servicebox shadow-md shadow-gray-700  ease-in duration-200 hover:shadow-blue-500 hover:shadow-lg my-4 p-4 cursor-pointer rounded-xl bg-white rounded-xl py-[2rem]">
@@ -162,17 +163,17 @@ const Index = () => {
                 </div>
                 <div className="aboutsection bg-white">
                     <div className="heading pt-[2rem]">
-                        <h2 className='text-gray-600 text-[1.5rem] md:text-[2rem] text-center' style={{fontFamily:"Poppins, sans-serif", fontWeight:500}}>Why Choose <span className='text-red-500' style={{fontWeight:700}}>Atal Infotech </span>for SEO Services ?</h2>
+                        <h2 className='text-gray-600 text-[1.5rem] md:text-[2rem] text-center' style={{ fontFamily: "Poppins, sans-serif", fontWeight: 500 }}>Why Choose <span className='text-red-500' style={{ fontWeight: 700 }}>Atal Infotech </span>for SEO Services ?</h2>
                     </div>
                     <div className="para md:grid md:grid-cols-2 md:gap-4">
-                        <p className='flex flex-col items-center justify-center text-gray-600 text-left py-4 px-4' style={{fontFamily:"Quicksand, sans-serif"}}>
+                        <p className='flex flex-col items-center justify-center text-gray-600 text-left py-4 px-4' style={{ fontFamily: "Quicksand, sans-serif" }}>
                             SEO is set of strategies to optimize your website which search engines use to rank your website.
                             We have team of experienced and creative brains which always gives their best. With our SEO Services
                             , the chances of your page to appear on first page of Google increases. We use effective and up to date
-                            methods for optimization of your site. SEO is usually a long and slow process. With our SEO services your 
-                            site presence on the web will surely start increasing. Our experience and skills will result in more potential 
-                            audiance to your business. Our supreme motive is to provide most effective yet affordable search engine optimization 
-                            services to our clients. Hire Attal Infotech for most reliable, affordable and effective search engine optimization 
+                            methods for optimization of your site. SEO is usually a long and slow process. With our SEO services your
+                            site presence on the web will surely start increasing. Our experience and skills will result in more potential
+                            audiance to your business. Our supreme motive is to provide most effective yet affordable search engine optimization
+                            services to our clients. Hire Attal Infotech for most reliable, affordable and effective search engine optimization
                             services within your budget.
                         </p>
                         <div className="image h-[50vh] md:h-[60vh] lg:h-[80vh] w-full relative">
@@ -180,19 +181,19 @@ const Index = () => {
                         </div>
                     </div>
                 </div>
-                <div className="contactus bg-blend-multiply bg-gray-500 py-4  w-full" style={{backgroundImage:"url('/laptop.jpg')", backgroundRepeat:'no-repeat'}}>
-                    <h2 className="text-left text-white text-[2.5rem] px-4" style={{fontFamily:"Raleway, sans-serif", fontWeight:700}}>Get into <span className='text-red-500'>touch</span></h2>
+                <div className="contactus bg-blend-multiply bg-gray-500 py-4  w-full" style={{ backgroundImage: "url('/laptop.jpg')", backgroundRepeat: 'no-repeat' }}>
+                    <h2 className="text-left text-white text-[2.5rem] px-4" style={{ fontFamily: "Raleway, sans-serif", fontWeight: 700 }}>Get into <span className='text-red-500'>touch</span></h2>
                     <div className="form px-4 py-8 md:grid md:grid-cols-2 md:gap-4">
                         <div className="part1">
-                        <input type="text" className='py-2 mb-4 px-4 bg-white w-full outline-none text-gray-800' placeholder='Your Name' style={{fontFamily:"Poppins, sans-serif"}}/>
-                        <input type="text" className='py-2 mb-4 px-4 bg-white w-full outline-none text-gray-800' placeholder='Your Phone Number' style={{fontFamily:"Poppins, sans-serif"}}/>
-                        <input type="email" className='py-2 mb-4 px-4 bg-white w-full outline-none text-gray-800' placeholder='Your Email Address' style={{fontFamily:"Poppins, sans-serif"}}/>
-                        
+                            <input type="text" className='py-2 mb-4 px-4 bg-white w-full outline-none text-gray-800' placeholder='Your Name' style={{ fontFamily: "Poppins, sans-serif" }} />
+                            <input type="text" className='py-2 mb-4 px-4 bg-white w-full outline-none text-gray-800' placeholder='Your Phone Number' style={{ fontFamily: "Poppins, sans-serif" }} />
+                            <input type="email" className='py-2 mb-4 px-4 bg-white w-full outline-none text-gray-800' placeholder='Your Email Address' style={{ fontFamily: "Poppins, sans-serif" }} />
+
                         </div>
-                        <textarea rows={6} className='py-2 mb-4 px-4 bg-white w-full outline-none text-gray-800 h-full w-full' placeholder='Describe about your project' style={{fontFamily:"Poppins, sans-serif"}}/>
+                        <textarea rows={6} className='py-2 mb-4 px-4 bg-white w-full outline-none text-gray-800 h-full w-full' placeholder='Describe about your project' style={{ fontFamily: "Poppins, sans-serif" }} />
                     </div>
                     <div className="btn">
-                        <button className='bg-red-500 rounded mx-4 px-4 py-2 text-white text-lg hover:bg-red-600' style={{fontFamily:"Poppins, sans-serif"}}>Submit</button>
+                        <button className='bg-red-500 rounded mx-4 px-4 py-2 text-white text-lg hover:bg-red-600' style={{ fontFamily: "Poppins, sans-serif" }}>Submit</button>
                     </div>
                 </div>
                 <Footer></Footer>
