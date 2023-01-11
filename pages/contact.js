@@ -11,6 +11,7 @@ const Contact = () => {
         <>
             <Head>
                 <title>Contact Us | Atal Infotech</title>
+                <link rel="favicon" href="/yash.ico" />
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"></link>
             </Head>
             <Navbar active={3}></Navbar>

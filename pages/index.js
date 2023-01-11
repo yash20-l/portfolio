@@ -3,7 +3,6 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Script from 'next/script';
 import Carousel from '../components/Carousel';
-import { AiFillInstagram, AiFillTwitterCircle, AiFillGithub, AiFillFacebook, AiFillThunderbolt, AiFillCheckCircle } from 'react-icons/ai'
 import Navbar from '../components/Navbar';
 import Footer from "../components/Footer";
 
@@ -35,6 +34,7 @@ const Index = () => {
     return (
         <div className="homewrapper">
             <Head>
+                <link rel="favicon" href="/yash.ico" />
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Rubik+Bubbles&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet"></link>
                 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet" />
@@ -43,23 +43,7 @@ const Index = () => {
             </Head>
 
             <div className="pagewrapper">
-                <div className="headers z-[2] w-full top-0 static" id='headers'>
-                    <div className="strip px-4 h-auto bg-blue-600 py-[.5rem] flex flex-row items-center justify-between">
-                        <div className="social-media flex flex-row items-center justify-center">
-                            <span className='text-white pz-2'>Follow Us:</span>
-                            <div className="icons px-2 flex flex-row items-center justify-center">
-                                <a href="#"><AiFillInstagram size={20} color="white" className='mx-2'></AiFillInstagram></a>
-                                <a href="#"><AiFillTwitterCircle size={20} color="white" className='mx-2'></AiFillTwitterCircle></a>
-                                <a href="#"><AiFillFacebook size={20} color="white" className='mx-2'></AiFillFacebook></a>
-                            </div>
-                        </div>
-                        <div className="contactinfo flex flex-row items-center justify-center hidden md:block">
-                            <span className='text-white px-2'>atalinfotech19@gmail.com</span>
-                            <span className='text-white px-2'>+91 9115479004</span>
-                        </div>
-                    </div>
-                    <Navbar active={0}></Navbar>
-                </div>
+                
                 <Carousel></Carousel>
                 <div className="heading py-4">
                     <h1 className="text-center py-4 text-[2rem]" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 300 }}>
@@ -68,11 +52,10 @@ const Index = () => {
                 </div>
                 <div className="hero-para px-4">
                     <p className='text-center text-gray-800 w-full text-[16px] overflow-hidden' style={{ fontFamily: 'Quicksand, sans-serif' }}>
-                        Atal Infotech is a IT and digital marketing company which provides digital marketing services. We all know that digital marketing is a proven
-                        way to expand a company no matter the company is big or small. Digital Marketing has been an integral part of strategic marketing campaigns.
-                        Since digital marketing is a very vast field therefore it takes significant experiance and efforts to run a efficient compaign. Internet is the
-                        only medium by which you can reach vast number of consumers bayond the borders of your country. Today in this modern world, there is tough compitation
-                        in every field. Our company helps your business to grow while taking care of your competitors.
+                        Atal Infotech is a IT and digital marketing company which provides digital marketing services. Digital marketing is a proven and efficient
+                        way to gain more loyal customers online. Digital Marketing has been an integral part of strategic marketing campaigns.
+                        Since digital marketing is a very vast field therefore it takes significant experience and efforts to run a efficient compaign. By using digital marketing strategies you can reach
+                        more potential consumers from all over the globe. 
                     </p>
                     <p className='text-center w-full text-gray-800 py-4 text-[16px]' style={{ fontFamily: 'Quicksand, sans-serif' }}>Our digital marketing stratigies helps you to reach
                         vast number of consumers in very short time period. Here at Atal Infotech we help your business grow so that you can help us grow. Our services gives a push to your business and enables it
@@ -85,7 +68,7 @@ const Index = () => {
                             <Image src={'/services/seo.png'} height={100} width={100} alt="seo_image"></Image>
                         </div>
                         <div className="text py-2"><h2 className='text-xl text-red-600 text-left' style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 500 }}>Search Engine Optimization</h2></div>
-                        <p  style={{ fontFamily: 'Quicksand, sans-serif' }}>We use the best and most effecient search engine optimization strategies for up ranking of your website. We are the leading SEO provider in Mohali. Appearing in top of the search results is a complex and time taking process but once done it gives tons of potential and loyal customers and the effect is long lasting.</p>
+                        <p  style={{ fontFamily: 'Quicksand, sans-serif' }}>We use the best and most effecient search engine optimization strategies for ranking your website. We are the leading SEO provider in Mohali. Appearing in top of the search results is a complex and time taking process but once done it gives tons of potential and loyal customers and the effect is long lasting.</p>
                         <a href="#"><p className='my-2 text-red-700'>read more...</p></a>
                     </div>
                     <div className="servicebox shadow-md shadow-gray-700  ease-in duration-200 hover:shadow-blue-500 hover:shadow-lg my-4 p-4 cursor-pointer rounded-xl bg-white rounded-xl py-[2rem]">

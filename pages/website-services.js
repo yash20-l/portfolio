@@ -38,6 +38,7 @@ const Website = () => {
     return (
         <div className="mainWrapper">
             <Head>
+                <link rel="favicon" href="/yash.ico" />
                 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Rubik+Bubbles&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet"></link>
@@ -71,7 +72,7 @@ const Website = () => {
                     </p>
                 </div>
                 <div className="image flex flex-col items-center py-4 justify-center">
-                    <div className="box rounded-full h-[18rem] w-[18rem] bg-white border-8 border-blue-400" style={{background:"url('/social/web.jpg')", backgroundPosition:"center" , backgroundSize:"16rem"}}>
+                    <div className="box rounded-full h-[18rem] w-[18rem] bg-white border-8 border-blue-400" style={{ background: "url('/social/web.jpg')", backgroundPosition: "center", backgroundSize: "16rem" }}>
                     </div>
                 </div>
 

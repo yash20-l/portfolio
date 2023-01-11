@@ -27,6 +27,7 @@ const DigitalMarketing = () => {
     return (
         <div className="mainWrapper">
             <Head>
+                <link rel="favicon" href="/yash.ico" />
                 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Rubik+Bubbles&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet"></link>
@@ -54,16 +55,16 @@ const DigitalMarketing = () => {
             </div>
             <div className="box md:grid md:grid-cols-2 md:gap-4 bg-gradient-to-r to-cyan-500 from-blue-500 w-full md:grid md:grid-cols-2 md:gap-4">
                 <div>
-                <div className="content px-2">
-                    <div className="heading px-2 text-white text-[2rem] pt-4 pb-2" style={{ fontFamily: "Poppins, sans-serif", fontWeight: 700 }}><h1>Professional Digital <span className='text-red-500' style={{ fontWeight: 700 }}>Marketing</span> Solutions</h1></div>
-                    <h2 className='text-white text-[1.5rem] px-2' style={{ fontFamily: "Quicksand, sans-serif", fontWeight: 700 }}>Uplifting Your Business...</h2>
-                    <p className='px-2 py-8 text-white text-lg' style={{ fontFamily: "Raleway, sans-serif" }}>Experiance the growth of your business with our expert digital marketing solutions. Atal Infotech is a leading digital marketing company in Mohali.
-                        Our professional works and creative ideas will boost your business like a BOOM !
-                    </p>
-                </div>
+                    <div className="content px-2">
+                        <div className="heading px-2 text-white text-[2rem] pt-4 pb-2" style={{ fontFamily: "Poppins, sans-serif", fontWeight: 700 }}><h1>Professional Digital <span className='text-red-500' style={{ fontWeight: 700 }}>Marketing</span> Solutions</h1></div>
+                        <h2 className='text-white text-[1.5rem] px-2' style={{ fontFamily: "Quicksand, sans-serif", fontWeight: 700 }}>Uplifting Your Business...</h2>
+                        <p className='px-2 py-8 text-white text-lg' style={{ fontFamily: "Raleway, sans-serif" }}>Experiance the growth of your business with our expert digital marketing solutions. Atal Infotech is a leading digital marketing company in Mohali.
+                            Our professional works and creative ideas will boost your business like a BOOM !
+                        </p>
+                    </div>
                 </div>
                 <div className="image flex flex-col items-center py-4 justify-center">
-                    <div className="box rounded-full h-[18rem] w-[18rem] bg-white border-8 border-blue-400" style={{background:"url('/social/social-market.jpg')", backgroundPosition:"center" , backgroundSize:"16rem"}}>
+                    <div className="box rounded-full h-[18rem] w-[18rem] bg-white border-8 border-blue-400" style={{ background: "url('/social/social-market.jpg')", backgroundPosition: "center", backgroundSize: "16rem" }}>
                     </div>
                 </div>
 
@@ -110,7 +111,7 @@ const DigitalMarketing = () => {
                             <div className='col-span-2'>
                                 <h2 className="text-gray-700 text-[1.5rem] px-2" style={{ fontFamily: "Raleway, sans-serif", fontWeight: 700 }}>Social Media <span className="relative before:content-[''] before:absolute before:bg-red-500 before:h-[4px] before:rounded-xl before:w-[9.5rem] before:bottom-0 before:right-[0rem] py-2">Optimization</span></h2>
                                 <p className='px-2 text-gray-800 py-4' style={{ fontFamily: "Raleway, sans-serif" }}>When talking about digital marketing we can&apos;t forget social media because social media platforms like Youtube, Facebook, Instagram have
-                                millions of daily active users. Optimizing your social media accounts can help you reach tons of new customers everyday.</p>
+                                    millions of daily active users. Optimizing your social media accounts can help you reach tons of new customers everyday.</p>
                             </div>
                         </div>
                         <div className="seo my-4 grid grid-cols-3 gap-4 py-4 rounded-2xl shadow-md shadow-gray-500 bg-gray-100 px-2 py-4">
