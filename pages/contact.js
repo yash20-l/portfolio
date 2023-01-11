@@ -14,7 +14,7 @@ const Contact = () => {
                 <link rel="favicon" href="/yash.ico" />
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"></link>
             </Head>
-            <Header></Header>
+            <Header page={3}></Header>
             <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" className=" fixed h-[60px] w-[60px] bottom-[40px] right-[40px] bg-[#25d366] text-[#FFF] rounded-[50px] text-center text-[38px] z-[100]" rel="noreferrer" target="_blank">
                 <i class="fa fa-whatsapp my-float"></i>
             </a>

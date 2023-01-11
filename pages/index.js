@@ -34,6 +34,7 @@ const Index = () => {
     return (
         <div className="homewrapper">
             <Head>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"></link>
                 <link rel="favicon" href="/yash.ico" />
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Rubik+Bubbles&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet"></link>
@@ -43,8 +44,10 @@ const Index = () => {
             </Head>
 
             <div className="pagewrapper">
-                <Header></Header>
-                
+                <Header page={0}></Header>
+                <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" className=" fixed h-[60px] w-[60px] bottom-[40px] right-[40px] bg-[#25d366] text-[#FFF] rounded-[50px] text-center text-[38px] z-[100]" rel="noreferrer" target="_blank">
+                <i class="fa fa-whatsapp my-float"></i>
+            </a>
                 <Carousel></Carousel>
                 <div className="heading py-4">
                     <h1 className="text-center py-4 text-[2rem]" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 300 }}>

@@ -39,6 +39,7 @@ const Website = () => {
     return (
         <div className="mainWrapper">
             <Head>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"></link>
                 <link rel="favicon" href="/yash.ico" />
                 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Rubik+Bubbles&display=swap" rel="stylesheet" />
@@ -47,29 +48,16 @@ const Website = () => {
                 <title>Website Services</title>
             </Head>
             <div className="pagewrapper">
-                <div className="headers z-[2] w-full top-0 static" id='headers'>
-                    <div className="strip px-4 h-auto bg-blue-600 py-[.5rem] flex flex-row items-center justify-between">
-                        <div className="social-media flex flex-row items-center justify-center">
-                            <span className='text-white pz-2'>Follow Us:</span>
-                            <div className="icons px-2 flex flex-row items-center justify-center">
-                                <a href="#"><AiFillInstagram size={20} color="white" className='mx-2'></AiFillInstagram></a>
-                                <a href="#"><AiFillTwitterCircle size={20} color="white" className='mx-2'></AiFillTwitterCircle></a>
-                                <a href="#"><AiFillFacebook size={20} color="white" className='mx-2'></AiFillFacebook></a>
-                            </div>
-                        </div>
-                        <div className="contactinfo flex flex-row items-center justify-center hidden md:block">
-                            <span className='text-white px-2'>atalinfotech19@gmail.com</span>
-                            <span className='text-white px-2'>+91 9115479004</span>
-                        </div>
-                    </div>
-                    <Navbar active={2}></Navbar>
-                </div>
+                <Header page={2}></Header>
+                <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" className=" fixed h-[60px] w-[60px] bottom-[40px] right-[40px] bg-[#25d366] text-[#FFF] rounded-[50px] text-center text-[38px] z-[100]" rel="noreferrer" target="_blank">
+                    <i class="fa fa-whatsapp my-float"></i>
+                </a>
             </div>
             <div className="box md:grid md:grid-cols-2 md:gap-4 bg-gradient-to-r from-blue-800 to-blue-500 w-full md:grid md:grid-cols-2 md:gap-4">
                 <div className="content px-2">
                     <div className="heading px-2 text-white text-[2rem] pt-4 pb-2" style={{ fontFamily: "Poppins, sans-serif", fontWeight: 700 }}><h1>Fully Functional and<span className="relative text-red-500" style={{ fontWeight: 700 }}> Responsive</span> Websites</h1></div>
                     <h2 className='text-white text-[1.5rem] px-2' style={{ fontFamily: "Quicksand, sans-serif", fontWeight: 700 }}>making your business online...</h2>
-                    <p className='px-2 py-8 text-white text-lg' style={{ fontFamily: "Raleway, sans-serif" }}>Website is very important for generating organic traffic from digital marketing. It plays a votal role in building brand trust of your customers. Our range of website will surely help you to make a fast and user friendly website.
+                    <p className='px-2 py-8 text-white text-lg' style={{ fontFamily: "Raleway, sans-serif" }}>Having a fast and responsive website is must for every business. It plays a votal role in building brand trust of your customers. Our expert team can build you a fully functional and fast website for your business.
                     </p>
                 </div>
                 <div className="image flex flex-col items-center py-4 justify-center">

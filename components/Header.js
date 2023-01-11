@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiFillInstagram, AiFillTwitterCircle, AiFillGithub, AiFillFacebook, AiFillThunderbolt, AiFillCheckCircle } from 'react-icons/ai'
 import Navbar from './Navbar'
-const Header = () => {
+const Header = (props) => {
   return (
     <div className="headers z-[2] w-full top-0 static" id='headers'>
                     <div className="strip px-4 h-auto bg-blue-600 py-[.5rem] flex flex-row items-center justify-between">
@@ -18,7 +18,7 @@ const Header = () => {
                             <span className='text-white px-2'>+91 9115479004</span>
                         </div>
                     </div>
-                    <Navbar active={0}></Navbar>
+                    <Navbar active={props.page}></Navbar>
                 </div>
   )
 }

@@ -28,6 +28,7 @@ const DigitalMarketing = () => {
     return (
         <div className="mainWrapper">
             <Head>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"></link>
                 <link rel="favicon" href="/yash.ico" />
                 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Rubik+Bubbles&display=swap" rel="stylesheet" />
@@ -36,23 +37,10 @@ const DigitalMarketing = () => {
                 <title>Digital Marketing Services</title>
             </Head>
             <div className="pagewrapper">
-                <div className="headers z-[2] w-full top-0 static" id='headers'>
-                    <div className="strip px-4 h-auto bg-blue-600 py-[.5rem] flex flex-row items-center justify-between">
-                        <div className="social-media flex flex-row items-center justify-center">
-                            <span className='text-white pz-2'>Follow Us:</span>
-                            <div className="icons px-2 flex flex-row items-center justify-center">
-                                <a href="#"><AiFillInstagram size={20} color="white" className='mx-2'></AiFillInstagram></a>
-                                <a href="#"><AiFillTwitterCircle size={20} color="white" className='mx-2'></AiFillTwitterCircle></a>
-                                <a href="#"><AiFillFacebook size={20} color="white" className='mx-2'></AiFillFacebook></a>
-                            </div>
-                        </div>
-                        <div className="contactinfo flex flex-row items-center justify-center hidden md:block">
-                            <span className='text-white px-2'>atalinfotech19@gmail.com</span>
-                            <span className='text-white px-2'>+91 9115479004</span>
-                        </div>
-                    </div>
-                    <Navbar active={1}></Navbar>
-                </div>
+                <Header page={1}></Header>
+                <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" className=" fixed h-[60px] w-[60px] bottom-[40px] right-[40px] bg-[#25d366] text-[#FFF] rounded-[50px] text-center text-[38px] z-[100]" rel="noreferrer" target="_blank">
+                    <i class="fa fa-whatsapp my-float"></i>
+                </a>
             </div>
             <div className="box md:grid md:grid-cols-2 md:gap-4 bg-gradient-to-r to-cyan-500 from-blue-500 w-full md:grid md:grid-cols-2 md:gap-4">
                 <div>
