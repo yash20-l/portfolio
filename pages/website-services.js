@@ -5,6 +5,7 @@ import { AiFillInstagram, AiFillTwitterCircle, AiFillGithub, AiFillFacebook, AiF
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
+import Header from '../components/Header';
 
 const Website = () => {
     const settings = {

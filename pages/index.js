@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
 import Head from 'next/head';
 import Image from 'next/image';
-import Script from 'next/script';
 import Carousel from '../components/Carousel';
-import Navbar from '../components/Navbar';
 import Footer from "../components/Footer";
+import Header from '../components/Header';
+
 
 const Index = () => {
 
@@ -43,6 +43,7 @@ const Index = () => {
             </Head>
 
             <div className="pagewrapper">
+                <Header></Header>
                 
                 <Carousel></Carousel>
                 <div className="heading py-4">

@@ -1,5 +1,6 @@
 import React from 'react'
 import { AiFillInstagram, AiFillTwitterCircle, AiFillGithub, AiFillFacebook, AiFillThunderbolt, AiFillCheckCircle } from 'react-icons/ai'
+import Navbar from './Navbar'
 const Header = () => {
   return (
     <div className="headers z-[2] w-full top-0 static" id='headers'>
@@ -7,9 +8,9 @@ const Header = () => {
                         <div className="social-media flex flex-row items-center justify-center">
                             <span className='text-white pz-2'>Follow Us:</span>
                             <div className="icons px-2 flex flex-row items-center justify-center">
-                                <a href="#"><AiFillInstagram size={20} color="white" className='mx-2'></AiFillInstagram></a>
+                                <a href="https://www.instagram.com/atalinfotech/"><AiFillInstagram size={20} color="white" className='mx-2'></AiFillInstagram></a>
                                 <a href="#"><AiFillTwitterCircle size={20} color="white" className='mx-2'></AiFillTwitterCircle></a>
-                                <a href="#"><AiFillFacebook size={20} color="white" className='mx-2'></AiFillFacebook></a>
+                                <a href="https://www.facebook.com/atalinfotech19/"><AiFillFacebook size={20} color="white" className='mx-2'></AiFillFacebook></a>
                             </div>
                         </div>
                         <div className="contactinfo flex flex-row items-center justify-center hidden md:block">
