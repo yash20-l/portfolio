@@ -40,7 +40,7 @@ const Navbar = (props) => {
             <Image src={'/logo3.jpg'} priority height={50} width={50} alt='logo'></Image>
           </div>
           <div className="text px-2">
-            <h1 className='text-[1.2rem] text-[#61e1e8]' style={{ fontFamily: 'Quicksand, sans-serif' }}>Atal Infotech</h1>
+            <h2 className='text-[1.2rem] text-[#61e1e8]' style={{ fontFamily: 'Quicksand, sans-serif' }}>Atal Infotech</h2>
           </div>
         </div>
         <HiMenuAlt3 size={30} id='openbtn' className="my-2" color='#61e1e8' onClick={handleOnClick}></HiMenuAlt3>
@@ -52,7 +52,7 @@ const Navbar = (props) => {
             <Image src={'/logo3.jpg'} priority height={50} width={50} alt="desktop-logo"></Image>
           </div>
           <div className="text px-2">
-            <h1 className='text-[1.5rem] font-[Poppins, sans-serif] text-[#61e1e8]'>Atal Infotech</h1>
+            <h2 className='text-[1.5rem] font-[Poppins, sans-serif] text-[#61e1e8]'>Atal Infotech</h2>
           </div>
         </div>
         <div className='menu py-2'>
