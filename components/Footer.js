@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="subwrapper md:grid md:grid-cols-3 md:gap-4">
                 <div className="services">
                     <div className="services heading py-4">
-                        <h1 className='text-xl text-white'>Services</h1>
+                        <h2 className='text-xl text-white'>Services</h2>
                     </div>
                     <div className="ulWrapper py-4 rounded-xl">
                         <ul className='list-inside list-disc'>
@@ -19,7 +19,7 @@ const Footer = () => {
                 </div>
                 <div className="contact">
                     <div className="heading py-4">
-                        <h1 className="text-xl text-white">Contact</h1>
+                        <h2 className="text-xl text-white">Contact</h2>
                     </div>
                     <div className="ul py-4 rounded-xl">
                         <ul>
@@ -30,7 +30,7 @@ const Footer = () => {
                 </div>
                 <div className="SocialMedia">
                     <div className="heading py-4">
-                        <h1 className="text-xl text-white">Social Media</h1>
+                        <h2 className="text-xl text-white">Social Media</h2>
                     </div>
                     <div className="social-icons py-4 flex flex-row">
                         <div className="icon p-2 mx-2 rounded-full bg-transparent border-2 cursor-pointer border-[#00d69a] hover:border-[#008549]">
