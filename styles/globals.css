@@ -5,7 +5,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;500&display=swap'); */
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
 
 .main .ServicesSection::before{
     content: '';
@@ -13,3 +12,4 @@
     height: 10px;
     width: 5rem;
 }
+

@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
 import { HiMenuAlt3 } from 'react-icons/hi'
-import {AiFillCloseCircle} from "react-icons/ai"
+import { AiFillCloseCircle } from "react-icons/ai"
 
 const Navbar = (props) => {
 
@@ -18,19 +18,19 @@ const Navbar = (props) => {
 
   return (
     <div className="navbar-wrapper bg-[#040d23] static w-full">
-            <div id='menu-options' className="mobile-menu-options hidden transition ease-in-out duration-200 overflow-x-hidden left-0 z-[10] top-0 w-full h-full bg-gray-900 fixed text-white px-2 lg:hidden">
+      <div id='menu-options' className="mobile-menu-options hidden transition ease-in-out duration-200 overflow-x-hidden left-0 z-[10] top-0 w-full h-full bg-gray-900 fixed text-white px-2 lg:hidden">
         <div className="options py-2 flex flex-col items-center justify-center h-full w-full">
           <div className="option-tile pl-4 py-2 flex flex-row items-center justify-start">
-            <Link href='/'><span style={{fontFamily:'Poppins, sans-serif'}} className="text-[2rem]">Home</span></Link>
+            <Link href='/'><span style={{ fontFamily: 'Poppins, sans-serif' }} className="text-[2rem]">Home</span></Link>
           </div>
           <div className="option-tile py-2 pl-4 flex flex-row items-center justify-start">
-            <Link href={'/digital-marketing'}><span style={{fontFamily:'Poppins, sans-serif'}} className="text-[2rem]" >Digital Marketing</span></Link>
+            <Link href={'/digital-marketing'}><span style={{ fontFamily: 'Poppins, sans-serif' }} className="text-[2rem]" >Digital Marketing</span></Link>
           </div>
           <div className="option-tile py-2 pl-4 flex flex-row items-center justify-start">
-            <Link href={'/website-services'}><span style={{fontFamily:'Poppins, sans-serif'}} className="text-[2rem]">Website Services</span></Link>
+            <Link href={'/website-services'}><span style={{ fontFamily: 'Poppins, sans-serif' }} className="text-[2rem]">Website Services</span></Link>
           </div>
           <div className="option-tile py-2 pl-4 flex flex-row items-center justify-start">
-            <Link href={'/contact'}><span style={{fontFamily:'Poppins, sans-serif'}} className="text-[2rem]">Contact Us</span></Link>
+            <Link href={'/contact'}><span style={{ fontFamily: 'Poppins, sans-serif' }} className="text-[2rem]">Contact Us</span></Link>
           </div>
         </div>
       </div>
