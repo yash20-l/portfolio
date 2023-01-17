@@ -1,11 +1,9 @@
 import { React, useEffect } from 'react'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import { AiFillInstagram, AiFillTwitterCircle, AiFillGithub, AiFillFacebook, AiFillThunderbolt, AiFillCheckCircle } from 'react-icons/ai'
+import Footer from '../components/Footer';
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
-import Header from '../components/Header';
+import BlogNavbar from '../components/blog/BlogNavbar'
 
 const Website = () => {
     const settings = {
@@ -46,15 +44,15 @@ const Website = () => {
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Rubik+Bubbles&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet"></link>
                 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet" />
-                <title>Website Services</title>
+                <title>Website Services - Atal Infotech</title>
             </Head>
             <div className="pagewrapper">
-                <Header page={2}></Header>
+                <BlogNavbar></BlogNavbar>
                 <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" className=" fixed h-[60px] w-[60px] bottom-[40px] right-[40px] bg-[#25d366] text-[#FFF] rounded-[50px] text-center text-[38px] z-[100]" rel="noreferrer" target="_blank">
                     <i class="fa fa-whatsapp my-float"></i>
                 </a>
             </div>
-            <div className="box md:grid md:grid-cols-2 md:gap-4 bg-gradient-to-r from-blue-800 to-blue-500 w-full md:grid md:grid-cols-2 md:gap-4">
+            <div className="box py-[2rem] md:grid md:grid-cols-2 md:gap-4 bg-gradient-to-r from-blue-800 to-blue-500 w-full md:grid md:grid-cols-2 md:gap-4">
                 <div className="content px-2">
                     <div className="heading px-2 text-white text-[2rem] pt-4 pb-2" style={{ fontFamily: "Poppins, sans-serif", fontWeight: 700 }}><h1>Fully Functional and<span className="relative text-red-500" style={{ fontWeight: 700 }}> Responsive</span> Websites</h1></div>
                     <h2 className='text-white text-[1.5rem] px-2' style={{ fontFamily: "Quicksand, sans-serif", fontWeight: 700 }}>making your business online...</h2>
