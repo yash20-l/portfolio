@@ -12,6 +12,7 @@ import Image from 'next/image';
 const Carousel = () => {
     return (
         <Swiper
+            className='py-[2rem]'
             modules={[Navigation, Scrollbar, A11y, Autoplay]}
             slidesPerView={1}
             navigation
@@ -23,7 +24,17 @@ const Carousel = () => {
         >
             <SwiperSlide>
                 <div className="image h-[15vh] md:h-[30vh] lg:h-[40vh] w-[100vw] block">
+                    <Image src={'/Carousel/3.jpg'} fill alt="slide2"></Image>
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
+                <div className="image h-[15vh] md:h-[30vh] lg:h-[40vh] w-[100vw] block">
                     <Image src={'/Carousel/6-01.jpg'} fill alt="slide1"></Image>
+                </div>
+            </SwiperSlide>
+            <SwiperSlide>
+                <div className="image h-[15vh] md:h-[30vh] lg:h-[40vh] w-[100vw] block">
+                    <Image src={'/Carousel/4.jpg'} fill alt="slide2"></Image>
                 </div>
             </SwiperSlide>
         </Swiper>

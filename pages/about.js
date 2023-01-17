@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import React from 'react'
+import BlogNavbar from '../components/blog/BlogNavbar'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-
 
 const About = () => {
     return (
@@ -11,11 +11,11 @@ const About = () => {
             <title>About Us | Atal Infotech</title>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"></link>
         </Head>
-            <Navbar active={2}></Navbar>
+            <BlogNavbar></BlogNavbar>
             <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" className=" fixed h-[60px] w-[60px] bottom-[40px] right-[40px] bg-[#25d366] text-[#FFF] rounded-[50px] text-center text-[38px] z-[100]" target="_blank" rel="noreferrer">
                 <i class="fa fa-whatsapp my-float"></i>
             </a>
-            <div className="wrapper bg-[#2e2e2e] h-full px-[2rem] px-4 py-[2rem]">
+            <div className="wrapper py-[2rem] bg-[#2e2e2e] h-full px-[2rem] px-4 py-[2rem]">
                 <div className="text py-4  flex flex-row items-center">
                     <div className="dash w-[4rem] rounded-xl h-[5px] bg-[#00d69a] mx-4"></div>
                     <h1 className="text-[2.5rem] text-left lg:text-[3rem] text-white" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 600 }}>About Us</h1>

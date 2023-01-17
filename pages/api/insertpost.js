@@ -33,7 +33,7 @@ handler.post(async (req, res) => {
 
     let processedKeywords = keywords.split(',')
     const slug = slugify(title)
-    const readtime = Math.round(content.length * 0.005)
+    const readtime = Math.round(content.length * 0.00025)
     const likes = 0
     const comments = [{
         name : "Yash Verma",

@@ -3,14 +3,15 @@ import { AiFillInstagram, AiFillTwitterCircle, AiFillGithub, AiFillFacebook, AiF
 import Button from './button'
 import { HiMenuAlt3 } from "react-icons/hi"
 import Image from 'next/image'
+import Link from 'next/link'
+
 
 const BlogNavbar = () => {
     let Links = [
         { name: "HOME", link: "/" },
-        { name: "LATEST POSTS", link: "/" },
-        { name: "POPULAR POSTS", link: "/" },
-        { name: "TRENDING POSTS", link: "/" },
-        { name: "CATEGORIES", link: "/" },
+        { name: "WEBSITE SERVICES", link: "/website-services" },
+        { name: "DIGITAL MARKETING", link: "/digital-marketing" },
+        { name: "ABOUT US", link: "/about" },
     ];
     let [open, setOpen] = useState(false);
     return (
@@ -54,7 +55,7 @@ const BlogNavbar = () => {
                         {
                             Links.map((link) => (
                                 <li key={link.name} className='md:ml-8 text-[1rem] md:my-0 my-7'>
-                                    <a href={link.link} className='text-white hover:text-[#61e1e8] duration-500'>{link.name}</a>
+                                    <Link href={link.link} className='text-white hover:text-[#61e1e8] duration-500'>{link.name}</Link>
                                 </li>
                             ))
                         }

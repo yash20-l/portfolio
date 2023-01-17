@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import React, { useEffect } from 'react'
 import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import { AiFillInstagram, AiFillTwitterCircle, AiFillGithub, AiFillFacebook, AiFillThunderbolt, AiFillCheckCircle } from 'react-icons/ai'
 import Image from 'next/image'
 import Header from '../components/Header';
+import BlogNavbar from '../components/blog/BlogNavbar'
+
 const DigitalMarketing = () => {
 
     useEffect(() => {
@@ -36,14 +36,15 @@ const DigitalMarketing = () => {
                 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet"></link>
                 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet" />
                 <title>Digital Marketing Services</title>
+                <meta name="description" content="We provide the best digital marketing services in Mohali to help you gain more potential customers." />
             </Head>
+            <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" className=" fixed h-[60px] w-[60px] bottom-[40px] right-[40px] bg-[#25d366] text-[#FFF] rounded-[50px] text-center text-[38px] z-[100]" target="_blank" rel="noreferrer">
+                <i class="fa fa-whatsapp my-float"></i>
+            </a>
             <div className="pagewrapper">
-                <Header page={1}></Header>
-                <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" className=" fixed h-[60px] w-[60px] bottom-[40px] right-[40px] bg-[#25d366] text-[#FFF] rounded-[50px] text-center text-[38px] z-[100]" rel="noreferrer" target="_blank">
-                    <i class="fa fa-whatsapp my-float"></i>
-                </a>
+                <BlogNavbar></BlogNavbar>
             </div>
-            <div className="box md:grid md:grid-cols-2 md:gap-4 bg-gradient-to-r to-cyan-500 from-blue-500 w-full md:grid md:grid-cols-2 md:gap-4">
+            <div className="box py-[2rem] md:grid md:grid-cols-2 md:gap-4 bg-gradient-to-r to-cyan-500 from-blue-500 w-full md:grid md:grid-cols-2 md:gap-4">
                 <div>
                     <div className="content px-2">
                         <div className="heading px-2 text-white text-[2rem] pt-4 pb-2" style={{ fontFamily: "Poppins, sans-serif", fontWeight: 700 }}><h1>Professional Digital <span className='text-red-500' style={{ fontWeight: 700 }}>Marketing</span> Solutions</h1></div>

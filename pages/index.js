@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Carousel from '../components/Carousel';
 import Footer from "../components/Footer";
 import Header from '../components/Header';
-
+import BlogNavbar from '../components/blog/BlogNavbar';
 
 const Index = () => {
 
@@ -40,15 +40,16 @@ const Index = () => {
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Rubik+Bubbles&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet"></link>
                 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet" />
-                <title>Atal Infotech | Digital Marketing | Website Development | SEO | Graphic Designing | Content Marketing</title>
-                <meta name="description" content="Atal Infotech is a digital marketing provider in mohali. We provide professional digital marketing services to boost your business and helps generating organic traffic." />
+                <title>Atal Infotech - Best Digital Marketing Company in Mohali</title>
+                <meta name="description" content="Atal Infotech is a digital marketing company in mohali. We provide expert digital marketing services at affordable prices" />
             </Head>
 
             <div className="pagewrapper">
-                <Header page={0}></Header>
-                <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" className=" fixed h-[60px] w-[60px] bottom-[40px] right-[40px] bg-[#25d366] text-[#FFF] rounded-[50px] text-center text-[38px] z-[100]" rel="noreferrer" target="_blank">
-                    <i class="fa fa-whatsapp my-float"></i>
-                </a>
+            <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" className=" fixed h-[60px] w-[60px] bottom-[40px] right-[40px] bg-[#25d366] text-[#FFF] rounded-[50px] text-center text-[38px] z-[100]" target="_blank" rel="noreferrer">
+                <i class="fa fa-whatsapp my-float"></i>
+            </a>
+                <BlogNavbar></BlogNavbar>
+                <div className='py-[2rem]'>
                 <Carousel></Carousel>
                 <div className="heading py-4">
                     <h1 className="text-center py-4 text-[2rem]" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 300 }}>
@@ -197,6 +198,7 @@ const Index = () => {
                     </div>
                 </div>
                 <Footer></Footer>
+            </div>
             </div>
         </div>
     )

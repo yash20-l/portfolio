@@ -8,23 +8,23 @@ import Button from '../../components/blog/button'
 
 const Blog = () => {
 
-    const router = useRouter()
+    // const router = useRouter()
 
-    const [loading, setloading] = useState(false);
-    const [N, setN] = useState(0)
-    const [articles, setArticles] = useState([{}])
+    // const [loading, setloading] = useState(false);
+    // const [N, setN] = useState(0)
+    // const [articles, setArticles] = useState([{}])
 
-    useEffect(() => {
-        setloading(true)
-        axios.post(`http://localhost:3000/api/fetch`, { purpose: 2 }).then(posts => {
-            setArticles(posts.data)
-            setloading(false)
-        })
-    }, [])
+    // useEffect(() => {
+    //     setloading(true)
+    //     axios.post(`http://localhost:3000/api/fetch`, { purpose: 2 }).then(posts => {
+    //         setArticles(posts.data)
+    //         setloading(false)
+    //     })
+    // }, [])
 
-    const handleOnClick = (slug) => {
-        router.push(`http://localhost:3000/blog/${slug}`)
-    }
+    // const handleOnClick = (slug) => {
+    //     router.push(`http://localhost:3000/blog/${slug}`)
+    // }
 
     return (
         <div>
@@ -39,7 +39,11 @@ const Blog = () => {
                 <meta name="description" content="Trending Blog Articles. Latest Blog Articles. Popular Blog Articles." />
             </Head>
             <BlogNavbar></BlogNavbar>
-            <div className="hero py-8">
+            <div className="notice py-[2.5rem] px-4">
+                <h1 className='font-[Poppins] text-[2rem] text-gray-800 text-center font-[700]'>Available Soon !</h1>
+                <p className='text-center font-[Quicksans] font-[500] text-gray-700 text-[1rem]'>This page is currently in developing phase and will be available very soon.</p>
+            </div>
+            {/* <div className="hero py-8">
                 <div className="image relative h-[15vh] md:h-[20vh] lg:h-[35vh]">
                     <Image src="/Carousel/2.webp" fill></Image>
                 </div>
@@ -133,7 +137,7 @@ const Blog = () => {
                 <div className="sidebar py-y px-2 w-full h-[10rem] bg-white rounded-xl">
 
                 </div>
-            </div>
+            </div> */}
 
         </div>
     )
