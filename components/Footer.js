@@ -23,14 +23,14 @@ const Footer = () => {
                     </div>
                     <div className="ul py-4 rounded-xl">
                         <ul>
-                            <li className='text-white text-lg pb-2'>Mail us at <a href="https://atalinfotech19@gmail.com" rel="noreferrer" target={'_blank'}>atalinfotech19@gmail.com</a></li>
+                            <li className='text-white text-lg'>Mail us at <a href="https://atalinfotech19@gmail.com" rel="noreferrer" target={'_blank'}>atalinfotech19@gmail.com</a></li>
                             <li className='text-white text-lg'>Contact us on +91 91154-79004</li>
                         </ul>
                     </div>
                 </div>
                 <div className="SocialMedia">
                     <div className="heading py-4">
-                        <h2 className="text-xl text-white">Social Media</h2>
+                        <h2 className="text-xl text-white">Follow Us</h2>
                     </div>
                     <div className="social-icons py-4 flex flex-row">
                         <div className="icon p-2 mx-2 rounded-full bg-transparent border-2 cursor-pointer border-[#00d69a] hover:border-[#008549]">
@@ -40,7 +40,7 @@ const Footer = () => {
                         <a href="https://www.facebook.com/atalinfotech19/" target="_blank" rel='noreferrer'><AiFillFacebook color='#ffffff' size={20}></AiFillFacebook></a>
                         </div>
                         <div className="icon p-2 mx-2 rounded-full bg-transparent border-2 cursor-pointer border-[#00d69a] hover:border-[#008549]">
-                            <AiFillTwitterCircle color='#ffffff' size={20}></AiFillTwitterCircle>
+                            <a href="https://www.twitter.com/atal_infotech/" target="_blank" rel='noreferrer'><AiFillTwitterCircle color='#ffffff' size={20}></AiFillTwitterCircle></a>
                         </div>
                     </div>
                 </div>

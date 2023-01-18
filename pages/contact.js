@@ -1,10 +1,10 @@
 import React from 'react'
 import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
 import { AiOutlineMail } from "react-icons/ai"
 import { FiPhoneCall } from 'react-icons/fi'
 import Head from 'next/head'
 import Header from '../components/Header';
+import BlogNavbar from '../components/blog/BlogNavbar'
 
 const Contact = () => {
     return (
@@ -15,7 +15,7 @@ const Contact = () => {
                 <link rel="apple-touch-icon" sizes="180x180" href="/yash.ico" />
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"></link>
             </Head>
-            <Header page={3}></Header>
+            <BlogNavbar></BlogNavbar>
             <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" className=" fixed h-[60px] w-[60px] bottom-[40px] right-[40px] bg-[#25d366] text-[#FFF] rounded-[50px] text-center text-[38px] z-[100]" rel="noreferrer" target="_blank">
                 <i class="fa fa-whatsapp my-float"></i>
             </a>

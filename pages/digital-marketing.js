@@ -1,10 +1,10 @@
-import Head from 'next/head'
-import React, { useEffect } from 'react'
-import Footer from '../components/Footer'
-import Image from 'next/image'
-import Header from '../components/Header';
-import BlogNavbar from '../components/blog/BlogNavbar'
-
+import Head from 'next/head';
+import React, { useEffect } from 'react';
+import Footer from '../components/Footer';
+import Image from 'next/image';
+import {FaPaintBrush} from "react-icons/fa";
+import BlogNavbar from '../components/blog/BlogNavbar';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 const DigitalMarketing = () => {
 
     useEffect(() => {
@@ -28,6 +28,7 @@ const DigitalMarketing = () => {
     return (
         <div className="mainWrapper">
             <Head>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"></link>
                 <link rel="icon" href="/yash.ico" />
                 <link rel="apple-touch-icon" sizes="180x180" href="/yash.ico" />
@@ -75,18 +76,21 @@ const DigitalMarketing = () => {
                     </p>
                     <div className="content2 px-2">
                         <h2 className='text-gray-700 text-[1.5rem] px-2 py-8' style={{ fontFamily: "Quicksand, sans-serif", fontWeight: 700 }}>Some <span className='text-red-500'>Digital Marketing </span>Services By Atal Infotech</h2>
-                        <div className="seo my-4 grid grid-cols-3 gap-4 py-4 rounded-2xl bg-gray-100 px-2 py-4 shadow-md shadow-gray-500">
+                        <AnimationOnScroll animateIn="animate__slideInUp" animateOnce={true} duration={0.5}>
+                        <div className="seo my-4 grid grid-cols-3 gap-4 py-4 rounded-2xl bg-gray-100 px-2 py-4 shadow-md shadow-gray-800">
                             <div className='flex flex-col items-center justify-center h-full w-full'>
                                 <Image src="/services/seo.png" height={100} width={100} alt="seo"></Image>
                             </div>
                             <div className='col-span-2'>
-                                <h2 className='text-gray-700 text-[1.5rem]' style={{ fontFamily: "Raleway, sans-serif", fontWeight: 700 }}>Search <span className="relative before:content-[''] before:absolute before:bg-red-500 py-2 before:h-[4px] before:rounded-xl before:w-[4.5rem] before:bottom-0 before:left-[0px] relative">Engine </span>Optimization</h2>
+                                <h2 className='text-gray-700 text-[1.5rem]' style={{ fontFamily: "Raleway, sans-serif", fontWeight: 700 }}>Search Engine Optimization</h2>
                                 <p className='px-2 text-gray-800 py-4' style={{ fontFamily: "Raleway, sans-serif" }}>SEO is a art of appearing in organic search results in any search engine. It is very effective and long lasting method of gaining popularity on web. We provide the best SEO services in Mohali. Our SEO services will surely get your page rankings up.</p>
                             </div>
                         </div>
-                        <div className="seo my-4 grid grid-cols-3 gap-4 py-4  rounded-2xl shadow-md shadow-gray-500 bg-gray-100 px-2 py-4">
+                        </AnimationOnScroll>
+                        <AnimationOnScroll animateIn="animate__slideInUp" animateOnce={true} duration={0.5}>
+                        <div className="seo my-4 grid grid-cols-3 gap-4 py-4  rounded-2xl shadow-md shadow-gray-800 bg-gray-100 px-2 py-4">
                             <div className='col-span-2'>
-                                <h2 className="text-gray-700 text-[1.5rem] px-2 relative before:content-[''] before:absolute before:bg-red-500 py-2 before:h-[4px] before:rounded-xl before:w-[10rem] before:bottom-0 before:left-[5px]" style={{ fontFamily: "Raleway, sans-serif", fontWeight: 700 }}>Content Writing</h2>
+                                <h2 className="text-gray-700 text-[1.5rem] px-2" style={{ fontFamily: "Raleway, sans-serif", fontWeight: 700 }}>Content Writing</h2>
                                 <p className='px-2 text-gray-800 py-4' style={{ fontFamily: "Raleway, sans-serif" }}>Generating quality content is a very important step in any online compaign. Our creative and commited team members can do it for you.
                                     We will provide you the best content writing services. Professional and eye catching content is an essential part in SEO, social media optimization and any other marketing campaign.
                                 </p>
@@ -95,26 +99,31 @@ const DigitalMarketing = () => {
                                 <Image src="/services/contentwriting.png" height={100} width={100} alt="contentwriting"></Image>
                             </div>
                         </div>
-                        <div className="seo my-4 grid grid-cols-3 gap-4 py-4  rounded-2xl shadow-md shadow-gray-500 bg-gray-100 px-2 py-4">
+                        </AnimationOnScroll>
+                        <AnimationOnScroll animateIn="animate__slideInUp" animateOnce={true} duration={0.5}>
+                        <div className="seo my-4 grid grid-cols-3 gap-4 py-4  rounded-2xl shadow-md shadow-gray-800 bg-gray-100 px-2 py-4">
                             <div className='flex flex-col items-center justify-center h-full w-full'>
                                 <Image src="/services/socialmediamarketing.png" height={100} width={100} alt="socialmediamarketing"></Image>
                             </div>
                             <div className='col-span-2'>
-                                <h2 className="text-gray-700 text-[1.5rem] px-2" style={{ fontFamily: "Raleway, sans-serif", fontWeight: 700 }}>Social Media <span className="relative before:content-[''] before:absolute before:bg-red-500 before:h-[4px] before:rounded-xl before:w-[9.5rem] before:bottom-0 before:right-[0rem] py-2">Optimization</span></h2>
+                                <h2 className="text-gray-700 text-[1.5rem] px-2" style={{ fontFamily: "Raleway, sans-serif", fontWeight: 700 }}>Social Media Optimization</h2>
                                 <p className='px-2 text-gray-800 py-4' style={{ fontFamily: "Raleway, sans-serif" }}>When talking about digital marketing we can&apos;t forget social media because social media platforms like Youtube, Facebook, Instagram have
                                     millions of daily active users. Optimizing your social media accounts can help you reach tons of new customers everyday.</p>
                             </div>
                         </div>
-                        <div className="seo my-4 grid grid-cols-3 gap-4 py-4 rounded-2xl shadow-md shadow-gray-500 bg-gray-100 px-2 py-4">
+                        </AnimationOnScroll>
+                        <AnimationOnScroll animateIn="animate__slideInUp" animateOnce={true} duration={0.5}>
+                        <div className="seo my-4 grid grid-cols-3 gap-4 py-4 rounded-2xl shadow-md shadow-gray-800 bg-gray-100 px-2 py-4">
                             <div className='col-span-2'>
-                                <h2 className="text-gray-700 text-[1.5rem] px-2 relative before:content-[''] before:absolute before:bg-red-500 py-2 before:h-[4px] before:rounded-xl before:w-[6rem] before:bottom-0 before:left-[5px]" style={{ fontFamily: "Raleway, sans-serif", fontWeight: 700 }}>Graphic Designing</h2>
+                                <h2 className="text-gray-700 text-[1.5rem] px-2" style={{ fontFamily: "Raleway, sans-serif", fontWeight: 700 }}>Graphic Designing</h2>
                                 <p className='px-2 text-gray-800 py-4' style={{ fontFamily: "Raleway, sans-serif" }}>Images capture attention of customers instantly as compared to plain text. We provide professional Graphic Designing services. We always try something new and creative to promote your brand. The perfect mix of all these digital marketing services will surely provide you positive results.
                                 </p>
                             </div>
                             <div className='flex flex-col items-center justify-center h-full w-full'>
-                                <Image src="/services/paint.png" height={100} width={100} alt="paint"></Image>
+                            <FaPaintBrush size={80} color="black"></FaPaintBrush>
                             </div>
                         </div>
+                        </AnimationOnScroll>
                     </div>
                 </div>
                 <div>
@@ -139,6 +148,24 @@ const DigitalMarketing = () => {
                             <h2 className='text-white text-[2rem]' style={{ fontFamily: "Anton, sans-serif" }}>Ready to rank top ?</h2>
                         </div>
                         <h2 className='text-white text-[1.5rem]' style={{ fontFamily: "Quicksans, sans-serif", fontWeight: 700 }}>Contact now at <span>+91 9115479004</span></h2>
+                    </div>
+                    <div className='my-4 py-4 px-2 bg-gradient-to-l from-[#fa7e1e] via-[#d62976] via-[#962fbf] to-[#4f5bd5] rounded'>
+                        <div className="heading">
+                            <h2 className='text-white text-[1.5rem] font-[600]' style={{ fontFamily: "Poppins, sans-serif" }}>Follow Us On Instagram</h2>
+                        </div>
+                        <a href="https://www.instagram.com/atalinfotech" target={'__blank'} rel="noreferrer"><h2 className='text-white cursor-pointer hover:text-blue-400 transition-all duration-100 font-[500] font-[Quicksand] text-[1rem]' style={{ fontFamily: "Quicksand, sans-serif", fontWeight: 700 }}>www.instagram.com/atalinfotech</h2></a>
+                    </div>
+                    <div className='my-4 py-4 px-2 bg-gradient-to-l from-blue-600 via-blue-700  to-blue-800 rounded'>
+                        <div className="heading">
+                            <h2 className='text-white text-[1.5rem] font-[600]' style={{ fontFamily: "Poppins, sans-serif" }}>Checkout Our Facebook Page</h2>
+                        </div>
+                        <a href="https://www.facebook.com/atalinfotech19" target={'__blank'} rel="noreferrer"><h2 className='text-white cursor-pointer hover:text-blue-400 transition-all duration-100 font-[500] font-[Quicksand] text-[1rem]' style={{ fontFamily: "Quicksand, sans-serif", fontWeight: 700 }}>www.facebook.com/atalinfotech19</h2></a>
+                    </div>
+                    <div className='my-4 py-4 px-2 bg-gradient-to-l from-green-600 via-green-700  to-green-800 rounded'>
+                        <div className="heading">
+                            <h2 className='text-white text-[1.5rem] font-[600]' style={{ fontFamily: "Poppins, sans-serif" }}>Quick Chat on Whattsapp</h2>
+                        </div>
+                        <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" target={'__blank'} rel="noreferrer"><h2 className='text-white cursor-pointer hover:text-blue-400 transition-all duration-100 font-[500] font-[Quicksand] text-[1rem]' style={{ fontFamily: "Quicksand, sans-serif", fontWeight: 700 }}>Click here to chat</h2></a>
                     </div>
                 </div>
             </div>

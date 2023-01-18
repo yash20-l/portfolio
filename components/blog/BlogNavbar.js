@@ -1,17 +1,18 @@
-import { React, useState } from 'react'
+import { React, useRef, useState } from 'react'
 import { AiFillInstagram, AiFillTwitterCircle, AiFillGithub, AiFillFacebook, AiFillThunderbolt, AiFillCheckCircle } from 'react-icons/ai'
-import Button from './button'
+import LoadingBar from 'react-top-loading-bar';
 import { HiMenuAlt3 } from "react-icons/hi"
 import Image from 'next/image'
 import Link from 'next/link'
 
 
 const BlogNavbar = () => {
+    const loadingRef = useRef(null)
     let Links = [
         { name: "HOME", link: "/" },
         { name: "WEBSITE SERVICES", link: "/website-services" },
         { name: "DIGITAL MARKETING", link: "/digital-marketing" },
-        { name: "ABOUT US", link: "/about" },
+        { name: "CONTACT US", link: "/contact" },
     ];
     let [open, setOpen] = useState(false);
     return (
@@ -55,13 +56,19 @@ const BlogNavbar = () => {
                         {
                             Links.map((link) => (
                                 <li key={link.name} className='md:ml-8 text-[1rem] md:my-0 my-7'>
-                                    <Link href={link.link} className='text-white hover:text-[#61e1e8] duration-500'>{link.name}</Link>
+                                    <Link onClick={() => {loadingRef.current.complete()}} href={link.link} className='text-white hover:text-[#61e1e8] duration-500'>{link.name}</Link>
                                 </li>
                             ))
                         }
                     </ul>
                 </div>
             </div>
+            <LoadingBar
+                color='#f11946'
+                height = {3}
+                loaderSpeed = {5000}
+                ref = {loadingRef}
+            />
         </div>
     )
 }
