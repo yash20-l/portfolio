@@ -37,7 +37,7 @@ const DigitalMarketing = () => {
                 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet"></link>
                 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet" />
                 <title>Digital Marketing Services</title>
-                <meta name="description" content="We provide the best digital marketing services in Mohali to help you gain more potential customers." />
+                <meta name="description" content="Atal Infotech aims to provide efficient and relaible digital marketing services for generating more organic traffic and uplifting your business." />
             </Head>
             <a href="https://api.whatsapp.com/send?phone=+919115479004&text=Hi,%20I%20have%20some%20query" className=" fixed h-[60px] w-[60px] bottom-[40px] right-[40px] bg-[#25d366] text-[#FFF] rounded-[50px] text-center text-[38px] z-[100]" target="_blank" rel="noreferrer">
                 <i class="fa fa-whatsapp my-float"></i>

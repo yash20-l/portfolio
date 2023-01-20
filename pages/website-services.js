@@ -46,6 +46,7 @@ const Website = () => {
                 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet"></link>
                 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet" />
                 <title>Website Services - Atal Infotech</title>
+                <meta name="description" content="We provide fast and fully functional websites for your business." />
             </Head>
             <div className="pagewrapper">
                 <BlogNavbar></BlogNavbar>
@@ -74,7 +75,7 @@ const Website = () => {
             <div className="content2 py-4 px-2 md:grid md:grid-cols-3 md:gap-4">
                 <div className='md:col-span-2'>
                     <h2 className='text-gray-700 text-[1.5rem] px-2' style={{ fontFamily: "Quicksand, sans-serif", fontWeight: 700 }}>Why <span className='text-red-500'>Website</span> is Important ?</h2>
-                    <p className='px-2 text-gray-700 py-4' style={{ fontFamily: "Raleway, sans-serif" }}>Website is a essential part of every big or medium scale business. A website gives a proof of legitmacy of your business.
+                    <p className='px-2 text-gray-700 py-4' style={{ fontFamily: "Raleway, sans-serif" }}>Website is a essential part of every big or medium scale business.It gives proof of legitmacy of your business. 
                     It is also responsible in giving first impressions of your business to your clients. It builds your brand image and increases trust among your audience. It will help your business building online presence and extending your boundaries worldwide.
                     </p>
 
@@ -82,21 +83,21 @@ const Website = () => {
                     <div className="content2 px-2">
                         <h2 className='text-gray-700 text-[1.5rem] px-2 py-8' style={{ fontFamily: "Quicksand, sans-serif", fontWeight: 700 }}><span className='text-red-500'>Our Website </span>Services</h2>
                         <AnimationOnScroll animateIn="animate__slideInUp" animateOnce={true} duration={0.5}>
-                        <div className="seo grid grid-cols-3 gap-4 my-4 py-4 mx-2 rounded-2xl shadow-md shadow-gray-800 bg-gray-100 px-2 py-4">
+                        <div className="seo hover:shadow-lg transition-all duration-200 hover:shadow-gray-800 cursor-pointer grid grid-cols-3 gap-4 my-4 py-4 mx-2 rounded-2xl shadow-md shadow-gray-800 bg-gray-100 px-2 py-4">
                             <div className='flex flex-col items-center justify-center h-full w-full'>
                                 <Image src="/website/website.png" height={100} width={100} alt="website_design"></Image>
                             </div>
                             <div className='col-span-2'>
-                                <h2 className='text-gray-700 text-[1.5rem] px-2' style={{ fontFamily: "Raleway, sans-serif", fontWeight: 700 }}>Website Design</h2>
+                                <h2 className='text-gray-700 text-[1.5rem] px-2' style={{ fontFamily: "Raleway, sans-serif", fontWeight: 700 }}>Web Designing</h2>
                                 <p className='px-2 text-gray-800 py-4' style={{ fontFamily: "Raleway, sans-serif" }}>When it comes to your website then modern and user friendly design is on the top. Our team of professional web designers will help you to have a stunning web design with easy to use user interfaces.</p>
                             </div>
                         </div>
                         </AnimationOnScroll>
                         <AnimationOnScroll animateIn="animate__slideInUp" animateOnce={true} duration={0.5}>
-                        <div className="seo grid grid-cols-3 gap-4 my-4 py-4 mx-2 rounded-2xl shadow-md shadow-gray-800 bg-gray-100 px-2 py-4">
+                        <div className="seo hover:shadow-lg transition-all duration-200 hover:shadow-gray-800 cursor-pointer grid grid-cols-3 gap-4 my-4 py-4 mx-2 rounded-2xl shadow-md shadow-gray-800 bg-gray-100 px-2 py-4">
                             <div className='col-span-2'>
                                 <h2 className='text-gray-700 text-[1.5rem] px-2' style={{ fontFamily: "Raleway, sans-serif", fontWeight: 700 }}>Blog Website</h2>
-                                <p className='px-2 text-gray-800 py-4' style={{ fontFamily: "Raleway, sans-serif" }}>Blog websites are the most high demanding websites in current date. Blog is a very convinient way of information gathering. Our website developers can develop you a fast and stylish blog website with all modern features. We use dark and easy to read fonts in all our blog websites which makes it very easy for the reader to read and understand the text.</p>
+                                <p className='px-2 text-gray-800 py-4' style={{ fontFamily: "Raleway, sans-serif" }}>Blog websites makes it easy to share your ideas and attract target audience to your products. it&apos;s a convenient way of advertising your products and services via blog. Having a fast loading and easy to read blog is very important for SEO and generation og organic traffic.</p>
                             </div>
                             <div className='flex flex-col items-center justify-center h-full w-full'>
                                 <Image src="/website/blog-website.png" height={100} width={100} alt="blog-website"></Image>
@@ -105,21 +106,21 @@ const Website = () => {
                         </AnimationOnScroll>
                         
                         <AnimationOnScroll animateIn="animate__slideInUp" animateOnce={true} duration={0.5}>
-                        <div className="seo grid grid-cols-3 gap-4 my-4 py-4 mx-2 rounded-2xl shadow-md shadow-gray-800 bg-gray-100 px-2 py-4">
+                        <div className="seo hover:shadow-lg transition-all duration-200 hover:shadow-gray-800 cursor-pointer grid grid-cols-3 gap-4 my-4 py-4 mx-2 rounded-2xl shadow-md shadow-gray-800 bg-gray-100 px-2 py-4">
                             <div className='flex flex-col items-center justify-center h-full w-full'>
                                 <Image src="/website/ecommerce.png" height={100} width={100} alt="ecommerce"></Image>
                             </div>
                             <div className='col-span-2'>
                                 <h2 className='text-gray-700 text-[1.5rem] px-2' style={{ fontFamily: "Raleway, sans-serif", fontWeight: 700 }}>E-Commerce Solutions</h2>
-                                <p className='px-2 text-gray-800 py-4' style={{ fontFamily: "Raleway, sans-serif" }}>Online shopping is a trend nowadays. Online E Commerce website is a great idea of extending your local store&apos;s range and getting more potential customers. Our E-Commerce solutions will help you to launch your products to all over the globe.</p>
+                                <p className='px-2 text-gray-800 py-4' style={{ fontFamily: "Raleway, sans-serif" }}>E-Commerce websites escalates your business but operating a E-commerce store is obviously not a easy task. Our E-commerce web developers take care of everything. Our E-commerce websites includes all modern features and are enriched with illustrations, animations, themes etc to attract customers towards your products.</p>
                             </div>
                         </div>
                         </AnimationOnScroll>
                         <AnimationOnScroll animateIn="animate__slideInUp" animateOnce={true} duration={0.5}>
-                        <div className="seo grid grid-cols-3 gap-4 my-4 py-4 mx-2 rounded-2xl shadow-md shadow-gray-800 bg-gray-100 px-2 py-4">
+                        <div className="seo hover:shadow-lg transition-all duration-200 hover:shadow-gray-800 cursor-pointer grid grid-cols-3 gap-4 my-4 py-4 mx-2 rounded-2xl shadow-md shadow-gray-800 bg-gray-100 px-2 py-4">
                             <div className='col-span-2'>
                                 <h2 className='text-gray-700 text-[1.5rem] px-2' style={{ fontFamily: "Raleway, sans-serif", fontWeight: 700 }}>Business Portfolio</h2>
-                                <p className='px-2 text-gray-800 py-4' style={{ fontFamily: "Raleway, sans-serif" }}>Business portfolio website is a good way of letting your customers know about your business and services you are offering to them. It plays a great role building up your brand trust. We provide all kinds of business portfolio services in a very great price range.</p>
+                                <p className='px-2 text-gray-800 py-4' style={{ fontFamily: "Raleway, sans-serif" }}>Your portfolio gives the glipmse of your business and services to your customers. It&apos;s like a trust mark to your new consumers and it increases your brand name. Displaying your products and services in your portfolio gives a idea of your business to your customers.</p>
                             </div>
                             <div className='flex flex-col items-center justify-center h-full w-full'>
                                 <Image src="/website/portfolio.png" height={100} width={100} alt="portfolio"></Image>
@@ -127,13 +128,13 @@ const Website = () => {
                         </div>
                         </AnimationOnScroll>
                         <AnimationOnScroll animateIn="animate__slideInUp" animateOnce={true} duration={0.5}>
-                        <div className="seo grid grid-cols-3 gap-4 my-4 py-4 mx-2 rounded-2xl shadow-md shadow-gray-800 bg-gray-100 px-2 py-4">
+                        <div className="seo hover:shadow-lg transition-all duration-200 hover:shadow-gray-800 cursor-pointer grid grid-cols-3 gap-4 my-4 py-4 mx-2 rounded-2xl shadow-md shadow-gray-800 bg-gray-100 px-2 py-4">
                             <div className='flex flex-col items-center justify-center h-full w-full'>
-                                <Image src="/website/custom.png" height={100} width={100} alt="custom"></Image>
+                                <Image src="/website/custom.png" width={100} height={100} alt="custom"></Image>
                             </div>
-                            <div className='col-span-2'>
+                            <div className='col-span-2 '>
                                 <h2 className='text-gray-700 text-[1.5rem] px-2' style={{ fontFamily: "Raleway, sans-serif", fontWeight: 700 }}>Customized Websites</h2>
-                                <p className='px-2 text-gray-800 py-4' style={{ fontFamily: "Raleway, sans-serif" }}>In addition to websites listed above we also deal in coding customized websites to our clients. We support all modern frameworks like Djago, Node.js, React.js, Next.js, Mongo DB etc. We are leading MERN website developers in Mohali. Our customized website solutions will help you automate your business work and making complex tasks easy.</p>
+                                <p className='px-2 text-gray-800 py-4' style={{ fontFamily: "Raleway, sans-serif" }}>Automating your tasks with the help of technology is great way of saving your valuable time and money. If you have no knowledge of modern programming frameworks then our team can build you fully functional CMS based website. Atal Infotech is leading web development agency in Mohali. </p>
                             </div>
                         </div>
                         </AnimationOnScroll>

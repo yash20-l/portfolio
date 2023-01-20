@@ -11,6 +11,7 @@ const Contact = () => {
         <>
             <Head>
                 <title>Contact Us | Atal Infotech</title>
+                <meta name="description" content="You can contact us at +91 9115479004 or mail us at atalinfotech19@gmail.com" />
                 <link rel="icon" href="/yash.ico" />
                 <link rel="apple-touch-icon" sizes="180x180" href="/yash.ico" />
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"></link>
