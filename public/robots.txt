@@ -1,3 +1,3 @@
 User-agent: *
 Allow: *
-Sitemap : https://atalinfotech.in/sitemap.xml
+Sitemap: https://www.atalinfotech.in/sitemap.xml
