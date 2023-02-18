@@ -10,9 +10,9 @@ const BlogNavbar = () => {
     const loadingRef = useRef(null)
     let Links = [
         { name: "HOME", link: "/" },
-        { name: "WEBSITE SERVICES", link: "/website-services" },
+        { name: "WEBSITE SERVICES", link: "/web-services" },
         { name: "DIGITAL MARKETING", link: "/digital-marketing" },
-        { name: "CONTACT US", link: "/contact" },
+        { name: "CONTACT US", link: "/contact" }
     ];
     let [open, setOpen] = useState(false);
     return (
