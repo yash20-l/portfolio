@@ -45,7 +45,7 @@ const Website = () => {
                 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Rubik+Bubbles&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet"></link>
                 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet" />
-                <title>Website Services - Atal Infotech</title>
+                <title>Website Services | Atal Infotech</title>
                 <meta name="description" content="We provide fast and fully functional websites for your business." />
             </Head>
             <div className="pagewrapper">
